@@ -7,17 +7,28 @@
 
 
 - 🔭 I’m currently pursuing computer science degree.
-- 🌱 I’m currently learning web development.
+- 🌱 Budding web developer.
 - 👯 I’m looking to collaborate on various projects across different tech stacks.
 - 🤔 I’m looking for help with contributing to open source projects.
 - 💬 Ask me about Frontend web development and Data structures and Algorithms
-- 📫 How to reach me: You can check out my LinkedIn at https://www.linkedin.com/in/boradesanket13/
+- 📫 How to reach me: Check out my LinkedIn at https://www.linkedin.com/in/boradesanket13/
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: Apart from a tech enthusiast, I am also a long distance runner and a teacher in a  local NGO.
+  
+## &#x1f4c8; GitHub Stats
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sanket1308)](https://github.com/anuraghazra/github-readme-stats)
+<a href="https://github.com/Sanket1308/Sanket1308">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sanket1308&hide=java,html,tex&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3" />
+</a>
+<a href="https://github.com/Sanket1308/Sanket1308">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Sanket1308&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Sanket's GitHub Stats" />
+</a>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sanket1308&layout=compact)](https://github.com/Sanket1308/github-readme-stats)
+<a href="https://github.com/Sanket1308/Sanket1308.github.io">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Sanket1308&repo=Sanket1308.github.io&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
+</a>
 
 
-
+<a href="https://github.com/Sanket1308/Telegram-chatbot">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Sanket1308&repo=Telegram-chatbot&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
+</a>
