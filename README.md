@@ -1,16 +1,16 @@
 ### Hi there 👋
 
-<!--
-**Sanket1308/Sanket1308** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🔭 I’m currently pursuing computer science degree.
+- 🌱 I’m currently learning web development.
+- 👯 I’m looking to collaborate on various projects across different tech stacks.
+- 🤔 I’m looking for help with contributing to open source projects.
+- 💬 Ask me about Frontend web development and Data structures and Algorithms
+- 📫 How to reach me: You can check out my LinkedIn at https://www.linkedin.com/in/boradesanket13/
+- 😄 Pronouns: He/Him
+- ⚡ Fun fact: Apart from a tech enthusiast, I am also a long distance runner and a teacher in a  local NGO.
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sanket1308)](https://github.com/anuraghazra/github-readme-stats)
+
+
