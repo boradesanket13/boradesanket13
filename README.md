@@ -14,6 +14,8 @@
 - 📫 How to reach me: Check out my LinkedIn at https://www.linkedin.com/in/boradesanket13/
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: Apart from a tech enthusiast, I am also a long distance runner and a teacher in a  local NGO.
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=Sanket1308&label=Profile%20views&color=0e75b6&style=flat" alt="Sanket1308"/> </p>
   
 ## &#x1f4c8; GitHub Stats
 
