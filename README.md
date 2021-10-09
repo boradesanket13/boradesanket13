@@ -33,7 +33,8 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Sanket1308&repo=Telegram-chatbot&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
 </a>
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Sanket1308&theme=dark)](https://git.io/streak-stats)
+![](https://komarev.com/ghpvc/?username=Sanket1308&color=0e75b6)
+
 
 
 
