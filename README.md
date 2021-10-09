@@ -2,9 +2,10 @@
   
 <h1 align="center">Hi <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"/>, I'm Sanket Borade </h1>
  
-[![Typing SVG](http://readme-typing-svg.herokuapp.com?color=F71E11&lines=I+lovee%2C+open+source:))](https://git.io/typing-svg)
+[![Typing SVG](http://readme-typing-svg.herokuapp.com?color=F71E11&lines=I+lovee%2C+open+source:) )](https://git.io/typing-svg)
   <img width="50%" align="right" alt="Github" src="https://user-images.githubusercontent.com/60788180/131893851-b24002a3-72be-40cf-a179-7cbdff89b087.gif" />
 
+![](https://komarev.com/ghpvc/?username=Sanket1308&color=0e75b6)
 
 - 🔭 I’m currently pursuing computer science degree.
 - 🌱 Budding web developer.
@@ -32,8 +33,11 @@
 <a href="https://github.com/Sanket1308/Telegram-chatbot">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Sanket1308&repo=Telegram-chatbot&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
 </a>
+<hr>
+<p align="center">
+  <img src="https://github.com/Sanket1308/Sanket1308/raw/output/github-contribution-grid-snake.svg" alt="snake"></center>
+</p>
 
-![](https://komarev.com/ghpvc/?username=Sanket1308&color=0e75b6)
 
 
 
