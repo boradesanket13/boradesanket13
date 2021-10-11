@@ -12,8 +12,6 @@
 
 - 👨‍💻 All of my projects are available at [https://sanket1308.github.io/](https://sanket1308.github.io/)
 
-- 📝 I regularly write articles on [https://medium.com/@boradesanket13](https://medium.com/@boradesanket13)
-
 - 💬 Ask me about **C++ / python / frontend web development.**
 
 - 📫 How to reach me **boradesanket13@gmail.com**
