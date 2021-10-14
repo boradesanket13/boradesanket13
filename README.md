@@ -4,9 +4,9 @@
  
 <img width="50%" align="right" alt="Github" src="https://user-images.githubusercontent.com/60788180/131893851-b24002a3-72be-40cf-a179-7cbdff89b087.gif" />
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=sanket1308&label=Profile%20views&color=0e75b6&style=flat" alt="sanket1308" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=sanket1308&label=Profile%20views&color=FF00FF&style=flat" alt="sanket1308" /> </p>
 
-<p align="left"> <a href="https://twitter.com/boradesanket13" target="blank"><img src="https://img.shields.io/twitter/follow/boradesanket13?logo=twitter&style=for-the-badge" alt="boradesanket13" /></a> </p>
+<p align="left"> <a href="https://twitter.com/boradesanket13" target="blank"><img src="https://img.shields.io/twitter/follow/boradesanket13?logo=twitter&style=for-the-badge"  alt="boradesanket13" /></a> </p>
 
 - 🌱 I’m currently learning **web development.**
 
