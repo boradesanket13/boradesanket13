@@ -42,7 +42,6 @@
 <a href="https://twitter.com/boradesanket13" target="blank"><img align="center" src="https://img.icons8.com/bubbles/100/000000/twitter.png" alt="boradesanket13" height="75" width="75" /></a> &nbsp;&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/boradesanket13/" target="blank"><img align="center" src="https://img.icons8.com/bubbles/100/000000/linkedin.png" alt="boradesanket13" height="75" width="75" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://sanket1308.github.io/" target="blank"><img align="center" src="https://img.icons8.com/bubbles/100/000000/man-window.png" alt="Sanket1308" height="75" width="75" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://medium.com/@boradesanket13" target="blank"><img align="center" src="https://img.icons8.com/bubbles/100/000000/medium-new.png" alt="boradesanket13" height="75" width="75" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.hackerrank.com/boradesanket13" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="boradesanket13" height="75" width="75" /></a>
 </p>
 <hr>
