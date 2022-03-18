@@ -10,9 +10,7 @@
 
 - 🌱 I’m currently learning **web development.**
 
-- 👨‍💻 All of my projects are available at [https://sanket1308.github.io/](https://sanket1308.github.io/)
-
-- 💬 Ask me about **C++ / python / frontend web development.**
+- 💬 Ask me about **Web and Flutter Development**
 
 - 📫 How to reach me **boradesanket13@gmail.com**
 
