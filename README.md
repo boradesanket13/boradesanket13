@@ -25,25 +25,28 @@
 <a href="https://github.com/Sanket1308/Sanket1308">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sanket1308&hide=java,html,tex&title_color=ff1a8c&text_color=e6e6e6&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3" />
 </a>
-  
 <a href="https://github.com/Sanket1308/Sanket1308">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=Sanket1308&show_icons=true&line_height=27&count_private=true&title_color=ff1a8c&text_color=e6e6e6&icon_color=ff1a8c&bg_color=1d1f21" alt="Sanket's GitHub Stats" />
 </a>
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Sanket1308&theme=radical)](https://git.io/streak-stats)
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Sanket1308&theme=radical)
 </p>
 
 <p align="center">
   <img src="https://github.com/Sanket1308/Sanket1308/raw/output/github-contribution-grid-snake.svg" alt="snake"></center>
 </p>
 
-<hr>
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sanket1308&theme=radical)
 
+<hr>
 <h3 align="center">Connect with me:</h3>
 <p align="center">
 <a href="https://twitter.com/boradesanket13" target="blank"><img align="center" src="https://img.icons8.com/bubbles/100/000000/twitter.png" alt="boradesanket13" height="75" width="75" /></a> &nbsp;&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/boradesanket13/" target="blank"><img align="center" src="https://img.icons8.com/bubbles/100/000000/linkedin.png" alt="boradesanket13" height="75" width="75" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://sanket1308.github.io/" target="blank"><img align="center" src="https://img.icons8.com/bubbles/100/000000/man-window.png" alt="Sanket1308" height="75" width="75" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.hackerrank.com/boradesanket13" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="boradesanket13" height="75" width="75" /></a>
+
+
+
 </p>
 <hr>
