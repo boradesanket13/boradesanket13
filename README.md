@@ -36,16 +36,13 @@
 </a>
 
 
-
-![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Sanket1308&theme=radical)
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Sanket1308&theme=radical)](https://git.io/streak-stats)
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Sanket1308&theme=radical)
+
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sanket1308&theme=radical)
   
 <a href="https://www.twitter.com/boradesanket13"><img src="https://github-readme-twitter-gazf.vercel.app/api?id=boradesanket13&amp;layout=wide" alt="github-readme-twitter"></a></pr>
 
-### Blogs posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
   
 <hr>
 <h3 align="left">Support:</h3>
