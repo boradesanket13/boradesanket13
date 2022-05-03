@@ -36,7 +36,7 @@
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sanket1308&theme=radical)
   
-[![Omid Nikrah Medium](https://github-readme-medium.vercel.app/?username=omidnikrah)](https://medium.com/@boradesanket13)
+[![Omid Nikrah Medium](https://github-readme-medium.vercel.app/?username=boradesanket13)](https://medium.com/@boradesanket13)
   
 ### Latest Tweets
 
