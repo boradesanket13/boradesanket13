@@ -33,12 +33,12 @@
 ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Sanket1308&theme=radical)
 </p>
 
-<p align="center">
-  <img src="https://github.com/Sanket1308/Sanket1308/raw/output/github-contribution-grid-snake.svg" alt="snake"></center>
-</p>
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sanket1308&theme=radical)
+### Latest Tweets
 
+<p><a href="https://www.twitter.com/boradesanket13"><img src="https://github-readme-twitter-gazf.vercel.app/api?id=boradesanket13&amp;layout=wide" alt="github-readme-twitter"></a></p>
+  
 <hr>
 <h3 align="center">Connect with me:</h3>
 <p align="center">
