@@ -9,7 +9,7 @@
 <a href="mailto:boradesanket13@gmail.com"><img src="https://img.shields.io/badge/Gmail-boradesanket13-red" alt="Gmail: boradesanket13"></a>
 <a href="https://stackoverflow.com/users/story/6241000"><img src="https://img.shields.io/badge/-Stack%20Overflow-222222?logo=stack-overflow&amp;link=https://stackoverflow.com/users/16673586/sanket-borade" alt="Stack Overflow: boradesanket13"></a></p>
 
-<img width="40%" align="right" alt="Github" src="https://c.tenor.com/2uyENRmiUt0AAAAC/coding.gif" />
+<img width="60%" align="right" alt="Github" src="https://c.tenor.com/2uyENRmiUt0AAAAC/coding.gif" />
 
 - 👨‍💻 Check out my portfolio at [https://sanket1308.github.io/](https://sanket1308.github.io/)
 
