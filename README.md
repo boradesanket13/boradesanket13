@@ -1,6 +1,6 @@
 <h4 align="center"> 
   
-<h1 align="center">Hi <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"/>, I'm Sanket Borade </h1>
+<h1 align="center">Hi, I'm Sanket Borade </h1>
  
 <p align="centre"> <img src="https://komarev.com/ghpvc/?username=sanket1308&label=Profile%20views&color=FF00FF&style=flat" alt="sanket1308" /> 
 <a href="https://twitter.com/boradesanket13"><img src="https://img.shields.io/twitter/follow/boradesanket13?style=social" alt="Twitter: @boradesanket13"></a>
