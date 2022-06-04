@@ -8,7 +8,7 @@
 <a href="https://github.com/Sanket1308"><img src="https://img.shields.io/github/followers/Sanket1308?label=follow&amp;style=social" alt="GitHub: @Sanket1308"></a>
 <a href="mailto:boradesanket13@gmail.com"><img src="https://img.shields.io/badge/Gmail-boradesanket13-red" alt="Gmail: boradesanket13"></a>
 
-<img width="100%" align="right" alt="Github" src="https://c.tenor.com/2uyENRmiUt0AAAAC/coding.gif" />
+<img width="50%" align="right" alt="Github" src="https://c.tenor.com/2uyENRmiUt0AAAAC/coding.gif" />
 
 - 👨‍💻 Check out my portfolio at [https://sanket1308.github.io/](https://sanket1308.github.io/)
 
