@@ -53,7 +53,7 @@
 <p align="centre">
 <a href="https://twitter.com/boradesanket13" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="boradesanket13" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/boradesanket13" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="boradesanket13" height="30" width="40" /></a>
-<a href="https://instagram.com/i_sanket13/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="i_sanket13/" height="30" width="40" /></a>
+<a href="https://instagram.com/sanket.eth/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="i_sanket13/" height="30" width="40" /></a>
 <a href="https://medium.com/@boradesanket13" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@boradesanket13" height="30" width="40" /></a>
 </p>
 
