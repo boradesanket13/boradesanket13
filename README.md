@@ -10,8 +10,6 @@
 
 <img width="50%" align="right" alt="Github" src="https://c.tenor.com/zn8iyusePtgAAAAC/tenor.gif" />
 
-- 👨‍💻 Check out my portfolio at [here](https://sanketborade.netlify.app/)
-
 - 💬 Ask me about **Flutter and Web Development**
 
 - 📫 How to reach me **boradesanket13@gmail.com**
