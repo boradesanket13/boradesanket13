@@ -61,4 +61,4 @@
 
 <h2 align="center">My Badges</h2>
 
-[![@Sanket1308's Holopin board](https://holopin.io/api/user/board?user=Sanket1308)](https://holopin.io/@Sanket1308)
+[![@sanket1308's Holopin board](https://holopin.io/api/user/board?user=sanket1308)](https://holopin.io/@sanket1308)
