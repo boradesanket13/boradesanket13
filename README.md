@@ -58,3 +58,7 @@
 <p align="center">
   <img src="https://github.com/Sanket1308/Sanket1308/raw/output/github-contribution-grid-snake.svg" alt="snake"></center>
 </p>
+
+<h2 align="center">My Badges</h2>
+
+[![@Sanket1308's Holopin board](https://holopin.io/api/user/board?user=Sanket1308)](https://holopin.io/@Sanket1308)
