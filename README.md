@@ -39,11 +39,6 @@
 <a href="https://www.twitter.com/boradesanket13"><img src="https://github-readme-twitter-gazf.vercel.app/api?id=boradesanket13&amp;layout=wide" alt="github-readme-twitter"></a></pr>
 
   
-<hr>
-<h3 align="left">Support:</h3>
-<p><a href="https://www.buymeacoffee.com/boradesanket13"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="boradesanket13" /></a></p><br><br>
-
-
   
 </p>
 <hr>
