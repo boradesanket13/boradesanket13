@@ -18,6 +18,11 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=boradesanket13&show_icons=true&line_height=27&count_private=true&title_color=ff1a8c&text_color=e6e6e6&icon_color=ff1a8c&bg_color=1d1f21" alt="Sanket's GitHub Stats" />
 </a>
 
+  # Blog posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+  
+  <br>
  <a href="https://www.twitter.com/boradesanket13"><img src="https://github-readme-twitter-gazf.vercel.app/api?id=boradesanket13&amp;layout=wide" alt="github-readme-twitter"></a></pr>
   
 </p>
