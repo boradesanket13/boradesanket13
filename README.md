@@ -18,9 +18,6 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=boradesanket13&show_icons=true&line_height=27&count_private=true&title_color=ff1a8c&text_color=e6e6e6&icon_color=ff1a8c&bg_color=1d1f21" alt="Sanket's GitHub Stats" />
 </a>
 
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=boradesanket13&theme=radical)](https://git.io/streak-stats)
-![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=boradesanket13&theme=radical)
  
   
 </p>
