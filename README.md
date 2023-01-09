@@ -21,14 +21,7 @@
   
 😁 FunFact about me: If I could win a lifetime supply of one type of clothing, it would be hoodies.
 
-## &#x1f4c8; GitHub Stats<br/>
 
-<a href="https://github.com/boradesanket13/boradesanket13">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=boradesanket13&hide=java,html,tex&title_color=ff1a8c&text_color=e6e6e6&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3" />
-</a>
-<a href="https://github.com/boradesanket13/boradesanket13">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=boradesanket13&show_icons=true&line_height=27&count_private=true&title_color=ff1a8c&text_color=e6e6e6&icon_color=ff1a8c&bg_color=1d1f21" alt="Sanket's GitHub Stats" />
-</a>
 
 ## &#x1f4c8; Latest tweets<br/>
 
