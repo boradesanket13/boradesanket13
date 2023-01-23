@@ -31,11 +31,10 @@
   
 ### 𝐒𝐨𝐜𝐢𝐚𝐥𝐬 🚩 
 📌 [Portfolio](https://sanketborade.me/)
-📌 [GitHub](https://github.com/boradesanket13/)
+📌 [LinkedIn](https://www.linkedin.com/in/boradesanket13/)
 📌 [Twitter](https://twitter.com/boradesanket13/)
 📌 [Medium](https://medium.com/boradesanket13/)
-📌 [Dev.to](https://dev.to/boradesanket13/)
-📌 [Newsletter](https://www.getrevue.co/profile/boradesanket13/)
+
 
 
 ### 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 🚩 
