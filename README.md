@@ -70,8 +70,7 @@
 <a href="https://medium.com/boradesanket13" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="boradesanket13" height="30" width="40" /></a>
 </p>
 
-
 <br>
 ### 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 🚩
-✉️ Email: <boradesanket13@gmail.com>
-🌐 Portfolio: <https://sanketborade.me>
+✉️ Email: <a herf="mailto:boradesanket13@gmail.com">boradesanket13@gmail.com</a>
+🌐 Portfolio: <a href="http://sanketborade.me/">sanketborade.me</a>
