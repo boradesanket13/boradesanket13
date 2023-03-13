@@ -1,6 +1,8 @@
-<h4 align="center"> 
-  
-<h1 align="center">Hi, I'm Sanket Borade </h1>
+
+<h1 align="center"><a herf="https://www.linkedin.com/in/boradesanket13/"> 𝗛𝗶!<img src="https://user-images.githubusercontent.com/79035081/208421932-fddfb58d-03e8-40ee-90f0-e6daa850186f.gif" 
+         alt="Waving hand animated gif"
+         height="45"
+         width="45" />𝗜'𝗺 Sanket Borade</h1>
 
 <p align="centre"> <img src="https://komarev.com/ghpvc/?username=boradesanket13&label=Profile%20views&color=FF00FF&style=flat" alt="boradesanket13" /> 
 <a href="https://twitter.com/boradesanket13"><img src="https://img.shields.io/twitter/follow/boradesanket13?style=social" alt="Twitter: @boradesanket13"></a>
