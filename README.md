@@ -4,11 +4,16 @@
          height="45"
          width="45" />𝗜'𝗺 Sanket Borade</h1>
 
+
 <p align="centre"> <img src="https://komarev.com/ghpvc/?username=boradesanket13&label=Profile%20views&color=FF00FF&style=flat" alt="boradesanket13" /> 
 <a href="https://twitter.com/boradesanket13"><img src="https://img.shields.io/twitter/follow/boradesanket13?style=social" alt="Twitter: @boradesanket13"></a>
 <a href="https://www.linkedin.com/in/boradesanket13/"><img src="https://img.shields.io/badge/Sanket%20Borade-blue?style=flat-square&amp;logo=Linkedin&amp;logoColor=white&amp;link=https://www.linkedin.com/in/boradesanket13/" alt="Linkedin: boradesanket13"></a>
 <a href="https://github.com/boradesanket13"><img src="https://img.shields.io/github/followers/boradesanket13?label=follow&amp;style=social" alt="GitHub: @boradesanket13"></a>
 <a href="mailto:boradesanket13@gmail.com"><img src="https://img.shields.io/badge/Gmail-boradesanket13-red" alt="Gmail: boradesanket13"></a>
+
+
+<img src="https://user-images.githubusercontent.com/3369400/133268513-5bfe2f93-4402-42c9-a403-81c9e86934b6.jpeg" alt="github" class="center">
+
 
  <a target="_blank" rel="noopener noreferrer" href="https://github.com/boradesanket13/boradesanket13/raw/output/github-contribution-grid-snake.svg"><img src="https://github.com/boradesanket13/boradesanket13/raw/output/github-contribution-grid-snake.svg" alt="snake" style="max-width: 100%;"></a>
 
@@ -63,8 +68,7 @@
 
 <br>
 ### 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 🚩 
-✉️ Email: boradesanket13@gmail.com
-<br>
+✉️ Email: [boradesanket13@gmail.com](mailto:boradesanket13@gmail.com)   
 🌐 Portfolio: [sanketborade.me](https://sanketborade.me/)
 
 
