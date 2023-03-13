@@ -72,9 +72,6 @@
 
 
 <br>
-### 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 🚩 
+### 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 🚩
 ✉️ Email: <boradesanket13@gmail.com>
-   <br>
 🌐 Portfolio: <https://sanketborade.me>
-
-
