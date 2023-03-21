@@ -109,11 +109,11 @@
 
 ### Recent Blogs Posts
 <!-- BLOG-POST-LIST:START -->
+- [Mastering Git and GitHub: Your Ultimate Guide to Learning and Using these Essential Tools](https://boradesanket13.medium.com/mastering-git-and-github-your-ultimate-guide-to-learning-and-using-these-essential-tools-8853a050ebd4?source=rss-7a3d293ee337------2)
 - [My Experience as an Open-source Project Maintainer at Hacktoberfest by Sanket Borade](https://boradesanket13.medium.com/my-experience-as-an-open-source-project-maintainer-at-hacktoberfest-by-sanket-borade-9f0bf78ff5aa?source=rss-7a3d293ee337------2)
 - [Get five domains for free as a student: Building Your Online Presence](https://boradesanket13.medium.com/get-five-domains-for-free-as-a-student-building-your-online-presence-95390cffa19d?source=rss-7a3d293ee337------2)
 - [API basics for beginners: What are APIs and how do they work?](https://boradesanket13.medium.com/api-basics-for-beginners-what-are-apis-and-how-do-they-work-e4cfcd9b0ab7?source=rss-7a3d293ee337------2)
 - [DBMindset: Understanding Database Paradigms](https://boradesanket13.medium.com/dbmindset-understanding-database-paradigms-4a258ba0120c?source=rss-7a3d293ee337------2)
-- [CSS Framework Showdown: Which One is Right for You?](https://boradesanket13.medium.com/css-framework-showdown-which-one-is-right-for-you-d9de398dda12?source=rss-7a3d293ee337------2)
 <!-- BLOG-POST-LIST:END -->
   
   
