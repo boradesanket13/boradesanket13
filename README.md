@@ -11,18 +11,15 @@
 
 
   ## This is me😁
-🎓 I’m a pre-final year Computer Science undergrad at Savitribai Phule Pune University. I'm a JavaScript developer. I work mainly with React and have a good understanding of its Ecosystem.
+🎓 I’m a pre-final year Computer Science undergrad at Savitribai Phule Pune University. I'm a MERN stack developer. I work mainly with React and have a good understanding of its Ecosystem.
 
-📘 I’m interested in open source, web development, cloud computing, and XR technologies. I love to explore new technologies and learn new things.
+📘 I’m interested in open source, web development, cloud computing, and XR technologies.
 
 👨‍💻 I am someone who loves working on abstract ideas and building projects driven to make a positive impact in the world. I like to think that I'm fairly good at debugging and finding alternative solutions.
- 
-🚀 My objective is to be a part of an organization where I can grow in terms of knowledge, attitude, and skills. I can work on my own initiative as well as a part of a team. Given a chance to work with you, I assure you my level best.
 
-🤝I am always on the lookout for new projects to work on and new people to collaborate with. Do check out my repositories and feel free to reach out if you would like to work on any of my existing projects or think I would be a good fit in your project.
+🤝 Do check out my repositories and feel free to reach out if you would like to work on any of my existing projects or think I would be a good fit in your project.
   
 😁 FunFact about me: If I could win a lifetime supply of one type of clothing, it would be hoodies.
-
 
 
   <p align="centre"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=boradesanket13" alt="boradesanket13" /></a>
