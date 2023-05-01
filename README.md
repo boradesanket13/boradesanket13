@@ -21,16 +21,28 @@
   
 😁 FunFact about me: If I could win a lifetime supply of one type of clothing, it would be hoodies.
 
+## Experience
+- DevRel @Scholarship Track, USA
+- Technical Intern @Cancer Foundation of India
+- Open source project mentor @IIT Patna & @IIT Guwahati
+- Program Manger @GirlScript Web3 Camp & @SOS Tech Inc.
+- Full Stack Dev Intern @Wolfizer Technologies & @InsideEdge
+- Technical Lead @ GDSC GES-COENGG 2021
+- Open-source contributor @GSSoC
+- API Fellowship recipient @Keploy
+- Hackathon Winner (2 times)
+- Hackathon Evangelist @Sinhgad Institute (Pune)
+- 150+ contributors & 70+ Stars earned on GitHub Projects
+- Web Development Scholarship holder @GirlScript Foundati
+         
+## GitHub Trophies and Achievements
 
-  <p align="centre"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=boradesanket13" alt="boradesanket13" /></a>
+<p align="centre"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=boradesanket13" alt="boradesanket13" /></a>
 
 
  </p>
 
-
-
-
-<h3 align="left">My stack</h3>
+## My Stack
 
 <h5 align="left">Languages</h5>
 
@@ -77,24 +89,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  </p>
+ 
+ ## GitHub Stats
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=boradesanket13&show_icons=true&locale=en" alt="boradesanket13" /></p>
 
@@ -102,7 +99,7 @@
 
 
 
-### Recent Blogs Posts
+## Recent Blogs Posts
 <!-- BLOG-POST-LIST:START -->
 - [gitignore using The Universal One-liner](https://boradesanket13.medium.com/gitignore-using-the-universal-one-liner-990986912296?source=rss-7a3d293ee337------2)
 - [Why Every Tech Company Needs a Developer Advocate &lpar;And How to Be One&rpar;](https://boradesanket13.medium.com/why-every-tech-company-needs-a-developer-advocate-and-how-to-be-one-d6293186fb34?source=rss-7a3d293ee337------2)
@@ -114,13 +111,12 @@
   
   <br>
 
- <a href="https://www.twitter.com/boradesanket13"><img src="https://github-readme-twitter-gazf.vercel.app/api?id=boradesanket13&amp;layout=wide" alt="github-readme-twitter"></a>
+<a href="https://www.twitter.com/boradesanket13"><img src="https://github-readme-twitter-gazf.vercel.app/api?id=boradesanket13&amp;layout=wide" alt="github-readme-twitter"></a>
 
 
 </pr>
   
-
-### <h3 align="left">You can also find me on🚀</h3>
+## <h3 align="left">You can also find me on🚀</h3>
 <p align="left">
 <a href="https://twitter.com/boradesanket13" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="boradesanket13" height="30" width="40" /></a><a href="https://linkedin.com/in/boradesanket13" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="boradesanket13" height="30" width="40" /></a><a href="https://medium.com/boradesanket13" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="boradesanket13" height="30" width="40" /></a>
 
