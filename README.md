@@ -111,8 +111,6 @@
   
   <br>
 
-<a href="https://www.twitter.com/boradesanket13"><img src="https://github-readme-twitter-gazf.vercel.app/api?id=boradesanket13&amp;layout=wide" alt="github-readme-twitter"></a>
-
 
 </pr>
   
