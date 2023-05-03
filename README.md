@@ -23,7 +23,7 @@
 
 ## Experience
 - DevRel @Scholarship Track, USA
-- Technical Intern @Cancer Foundation of India
+- Technical Intern @Cancer Foundation of India, Kolkata
 - Open source project mentor @IIT Patna & @IIT Guwahati
 - Program Manger @GirlScript Web3 Camp & @SOS Tech Inc.
 - Full Stack Dev Intern @Wolfizer Technologies & @InsideEdge
