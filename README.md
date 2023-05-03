@@ -33,7 +33,7 @@
 - Hackathon Winner (2 times)
 - Hackathon Evangelist @Sinhgad Institute (Pune)
 - 150+ contributors & 70+ Stars earned on GitHub Projects
-- Web Development Scholarship holder @GirlScript Foundati
+- Web Development Scholarship holder @GirlScript Foundation
          
 ## GitHub Trophies and Achievements
 
