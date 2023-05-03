@@ -27,10 +27,10 @@
 - Open source project mentor @IIT Patna & @IIT Guwahati
 - Program Manger @GirlScript Web3 Camp & @SOS Tech Inc.
 - Full Stack Dev Intern @Wolfizer Technologies & @InsideEdge
-- Technical Lead @ GDSC GES-COENGG 2021
 - Open-source contributor @GSSoC
-- API Fellowship recipient @Keploy
+- API Fellowship recipient @Keploy 
 - Hackathon Winner (2 times)
+- Technical Lead @GDSC GES-COENGG 2021
 - Hackathon Evangelist @Sinhgad Institute (Pune)
 - 150+ contributors & 70+ Stars earned on GitHub Projects
 - Web Development Scholarship holder @GirlScript Foundation
