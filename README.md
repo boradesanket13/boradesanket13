@@ -29,7 +29,7 @@
 - Full Stack Dev Intern @Wolfizer Technologies & @InsideEdge
 - Open-source contributor @GSSoC
 - API Fellowship recipient @Keploy 
-- Hackathon Winner (2 times)
+- Hackathon Winner (3 times)
 - Technical Lead @GDSC GES-COENGG 2021
 - Hackathon Evangelist @Sinhgad Institute (Pune)
 - 150+ contributors & 70+ Stars earned on GitHub Projects
