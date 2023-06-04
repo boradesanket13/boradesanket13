@@ -10,7 +10,7 @@
 ## This is me😁
 🎓 I’m a pre-final year Computer Science undergrad at Savitribai Phule Pune University. I'm a MERN stack developer. I work mainly with React and have a good understanding of its Ecosystem.
 
-📘 I’m interested in open source, web development, cloud computing, and XR technologies.
+📘 I’m interested in open source, UI/UX, web development, cloud computing, and XR technologies.
 
 👨‍💻 I am someone who loves working on abstract ideas and building projects driven to make a positive impact in the world. I like to think that I'm fairly good at debugging and finding alternative solutions.
 
