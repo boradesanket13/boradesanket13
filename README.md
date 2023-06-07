@@ -29,7 +29,7 @@
 - Hackathon Winner (3 times)
 - Technical Lead @GDSC GES-COENGG 2021
 - Hackathon Evangelist @Sinhgad Institute (Pune)
-- 150+ contributors & 70+ Stars earned on GitHub Projects
+- 150+ contributors & 100+ Stars earned on GitHub Projects
 - Web Development Scholarship holder @GirlScript Foundation
        
 ## Recent Blogs Posts
