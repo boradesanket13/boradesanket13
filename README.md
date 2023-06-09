@@ -7,7 +7,7 @@
 
 <p align="centre"> <img src="https://komarev.com/ghpvc/?username=boradesanket13&label=Profile%20views&color=FF00FF&style=flat" alt="boradesanket13" /> 
 
-## This is me😁
+## 😇 This is me
 🎓 I’m a pre-final year Computer Science undergrad at Savitribai Phule Pune University. I'm a MERN stack developer. I work mainly with React and have a good understanding of its Ecosystem.
 
 📘 I’m interested in open source, UI/UX, web development, cloud computing, and XR technologies.
@@ -17,8 +17,20 @@
 🤝 Do check out my repositories and feel free to reach out if you would like to work on any of my existing projects or think I would be a good fit in your project.
   
 😁 FunFact about me: If I could win a lifetime supply of one type of clothing, it would be hoodies.
+         
 
-## Experience
+ ## 💡 GitHub Stats
+
+<p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=boradesanket13&show_icons=true&locale=en" alt="boradesanket13" /><img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=boradesanket13&" alt="boradesanket13" /></p> 
+
+
+         <p>
+                  <br>
+
+<br>
+                  
+                  
+## 🚀 Experiences
 - DevRel @Scholarship Track, USA
 - Technical Intern @Cancer Foundation of India, Kolkata
 - Open source project mentor @IIT Patna & @IIT Guwahati
@@ -31,8 +43,8 @@
 - Hackathon Evangelist @Sinhgad Institute (Pune)
 - 150+ contributors & 100+ Stars earned on GitHub Projects
 - Web Development Scholarship holder @GirlScript Foundation
-       
-## Recent Blogs Posts
+       </p>
+## 📜 Recent Blogs Posts
 <!-- BLOG-POST-LIST:START -->
 - [From Chaos to Clarity: Organizing Node Modules with Git One liner](https://boradesanket13.medium.com/gitignore-using-the-universal-one-liner-990986912296?source=rss-7a3d293ee337------2)
 - [Why Every Tech Company Needs a Developer Advocate &lpar;And How to Be One&rpar;](https://boradesanket13.medium.com/why-every-tech-company-needs-a-developer-advocate-and-how-to-be-one-d6293186fb34?source=rss-7a3d293ee337------2)
@@ -41,17 +53,7 @@
 - [Get five domains for free as a student: Building Your Online Presence](https://boradesanket13.medium.com/get-five-domains-for-free-as-a-student-building-your-online-presence-95390cffa19d?source=rss-7a3d293ee337------2)
 <!-- BLOG-POST-LIST:END -->
   
-  
-  <br>
-         
-## GitHub Trophies and Achievements
-
-<p align="centre"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=boradesanket13" alt="boradesanket13" /></a>
-
-
- </p>
-
-## My Stack
+## ⚒ My Stack
 
 <h5 align="left">Languages</h5>
 
@@ -86,24 +88,20 @@
          
 <h5 align="left">Other</h5>
  
- <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a><a href="https://appwrite.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/appwriteio/appwriteio-icon.svg" alt="appwrite" width="40" height="40"/> </a><a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a>  <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://appwrite.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/appwriteio/appwriteio-icon.svg" alt="appwrite" width="40" height="40"/></a>
+ <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a><a href="https://appwrite.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/appwriteio/appwriteio-icon.svg" alt="appwrite" width="40" height="40"/> </a><a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a>  <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> 
 
 
  </p>
  
- ## GitHub Stats
+<p>
+         <br><br>
+         
+## ⭐ GitHub Trophies and Achievements
+<p align="centre"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=boradesanket13" alt="boradesanket13" /></a>
+ </p>
+ </p>
 
-<p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=boradesanket13&show_icons=true&locale=en" alt="boradesanket13" /><img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=boradesanket13&" alt="boradesanket13" /></p>
-
-</pr>
-
-
-</p>
-<br>
-
-<h3 align="centre">Connect with me:</h3>
-<p align="centre">
-
+## 🤝 Connect with me
 <a href="https://linkedin.com/in/boradesanket13" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="boradesanket13" height="30" width="40" /></a>
 <a href="https://twitter.com/boradesanket13" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="boradesanket13" height="30" width="40" /></a>
 <a href="https://medium.com/@boradesanket13" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@boradesanket13" height="30" width="40" /></a>
@@ -114,9 +112,12 @@
 -->
 </p>
 
+<br>
+ 
+<p>
 ✉️ Email: <a herf="mailto:boradesanket13@gmail.com">boradesanket13@gmail.com</a>
 <br>
 🌐 Portfolio: <a href="https://sanketborade.is-a.dev/">sanketborade.is-a.dev</a>
-
+</p>
 
 
