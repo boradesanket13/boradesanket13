@@ -7,7 +7,7 @@
 
 <p align="centre"> <img src="https://komarev.com/ghpvc/?username=boradesanket13&label=Profile%20views&color=FF00FF&style=flat" alt="boradesanket13" /> 
 
-## 😇 This is me
+## 🌟 This is me
 🎓 I’m a pre-final year Computer Science undergrad at Savitribai Phule Pune University. I'm a MERN stack developer. I work mainly with React and have a good understanding of its Ecosystem.
 
 📘 I’m interested in open source, UI/UX, web development, cloud computing, and XR technologies.
