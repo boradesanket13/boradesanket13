@@ -17,12 +17,7 @@
 🤝 Do check out my repositories and feel free to reach out if you would like to work on any of my existing projects or think I would be a good fit in your project.
   
 😁 FunFact about me: If I could win a lifetime supply of one type of clothing, it would be hoodies.
-         
-
- ## 💡 GitHub Stats
-<p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=boradesanket13&show_icons=true&locale=en" alt="boradesanket13" /><img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=boradesanket13&" alt="boradesanket13" /></p> 
-
-           
+                
          
 ## 🚀 Experiences
 - DevRel @Scholarship Track, USA
@@ -46,6 +41,9 @@
 - [My Experience as an Open-source Project Maintainer at Hacktoberfest by Sanket Borade](https://boradesanket13.medium.com/my-experience-as-an-open-source-project-maintainer-at-hacktoberfest-by-sanket-borade-9f0bf78ff5aa?source=rss-7a3d293ee337------2)
 - [Get five domains for free as a student: Building Your Online Presence](https://boradesanket13.medium.com/get-five-domains-for-free-as-a-student-building-your-online-presence-95390cffa19d?source=rss-7a3d293ee337------2)
 <!-- BLOG-POST-LIST:END -->
+
+ ## 💡 GitHub Stats
+<p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=boradesanket13&show_icons=true&locale=en" alt="boradesanket13" /><img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=boradesanket13&" alt="boradesanket13" /></p> 
   
 ## ⚒ My Stack
 
