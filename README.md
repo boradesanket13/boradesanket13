@@ -33,6 +33,10 @@
 - 150+ contributors & 100+ Stars earned on GitHub Projects
 - Web Development Scholarship holder @GirlScript Foundation
        </p>
+         
+ ## 💡 GitHub Stats
+<div><p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=boradesanket13&show_icons=true&locale=en" alt="boradesanket13" /><img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=boradesanket13&" alt="boradesanket13" /></p> </div>
+         
 ## 📜 Recent Blogs Posts
 <!-- BLOG-POST-LIST:START -->
 - [From Chaos to Clarity: Organizing Node Modules with Git One liner](https://boradesanket13.medium.com/gitignore-using-the-universal-one-liner-990986912296?source=rss-7a3d293ee337------2)
@@ -42,8 +46,8 @@
 - [Get five domains for free as a student: Building Your Online Presence](https://boradesanket13.medium.com/get-five-domains-for-free-as-a-student-building-your-online-presence-95390cffa19d?source=rss-7a3d293ee337------2)
 <!-- BLOG-POST-LIST:END -->
 
- ## 💡 GitHub Stats
-<p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=boradesanket13&show_icons=true&locale=en" alt="boradesanket13" /><img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=boradesanket13&" alt="boradesanket13" /></p> 
+
+
   
 ## ⚒ My Stack
 
