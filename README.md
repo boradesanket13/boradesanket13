@@ -32,6 +32,7 @@
 - Hackathon Evangelist @Sinhgad Institute (Pune)
 - 150+ contributors & 100+ Stars earned on GitHub Projects
 - Web Development Scholarship holder @GirlScript Foundation
+- Hackathon Mentor @SWOC
        </p>
          
 
