@@ -19,22 +19,7 @@
 😁 FunFact about me: If I could win a lifetime supply of one type of clothing, it would be hoodies.
                 
          
-## 🚀 Experiences
-- DevRel @Scholarship Track, USA
-- Technical Intern @Cancer Foundation of India, Kolkata
-- Open source project mentor @IIT Patna & @IIT Guwahati
-- Program Manger @GirlScript Web3 Camp & @SOS Tech Inc.
-- Full Stack Dev Intern @Wolfizer Technologies & @InsideEdge
-- Open-source contributor @GSSoC
-- API Fellowship recipient @Keploy 
-- Hackathon Winner (3 times)
-- Technical Lead @GDSC GES-COENGG 2021
-- Hackathon Evangelist @Sinhgad Institute (Pune)
-- 150+ contributors & 100+ Stars earned on GitHub Projects
-- Web Development Scholarship holder @GirlScript Foundation
-- Hackathon Mentor @SWOC
-       </p>
-         
+
 
          
 ## 📜 Recent Blogs Posts
