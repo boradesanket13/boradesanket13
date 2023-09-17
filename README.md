@@ -92,6 +92,13 @@
 <br>
  
 <p>
+<br>
+🤝 LinkedIn: <a href="https://www.linkedin.com/in/boradesanket13/">@boradesanket13</a>
+<br>
+✖ Twitter: <a href="https://twitter.com/boradesanket13">@boradesanket13</a>
+<br>
+📜 Medium: <a href="http://medium.com/@boradesanket13">@boradesanket13</a>
+<br>
 ✉️ Email: <a herf="mailto:boradesanket13@gmail.com">boradesanket13@gmail.com</a>
 <br>
 🌐 Portfolio: <a href="https://sanketborade.is-a.dev/">sanketborade.is-a.dev</a>
