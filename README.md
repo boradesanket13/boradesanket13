@@ -95,7 +95,7 @@
 <br>
 🤝 LinkedIn: <a href="https://www.linkedin.com/in/boradesanket13/">@boradesanket13</a>
 <br>
-✖ Twitter: <a href="https://twitter.com/boradesanket13">@boradesanket13</a>
+🤖 Twitter: <a href="https://twitter.com/boradesanket13">@boradesanket13</a>
 <br>
 📜 Medium: <a href="http://medium.com/@boradesanket13">@boradesanket13</a>
 <br>
