@@ -11,10 +11,6 @@
 🎓 I’m a pre-final year Computer Science undergrad at Savitribai Phule Pune University. I'm a MERN stack developer. I work mainly with React and have a good understanding of its Ecosystem.
 
 📘 I’m interested in open source, UI/UX, web development, and cloud computing.
-
-👨‍💻 I am someone who loves working on abstract ideas and building projects driven to make a positive impact in the world. I like to think that I'm fairly good at debugging and finding alternative solutions.
-
-🤝 Do check out my repositories and feel free to reach out if you would like to work on any of my existing projects or think I would be a good fit in your project.
   
 😁 FunFact about me: If I could win a lifetime supply of one type of clothing, it would be hoodies.
                 
@@ -32,8 +28,7 @@
 <!-- BLOG-POST-LIST:END -->
 
 
-
-  
+<!--
 ## ⚒ My Stack
 
 <h5 align="left">Languages</h5>
@@ -57,11 +52,10 @@
 
 <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> 
 
-<!--
+
 <h5 align="left">XR</h5>
 
  <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> <a href="https://unrealengine.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/kenangundogan/fontisto/036b7eca71aab1bef8e6a0518f7329f13ed62f6b/icons/svg/brand/unreal-engine.svg" alt="unreal" width="40" height="40"/> </a>
--->
 
 <h5 align="left">Design</h5>
 
@@ -75,7 +69,9 @@
  </p>
  
 <p>
-         <br><br>
+
+-->
+
          
 ## ⭐ GitHub Trophies and Achievements
 <p align="centre"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=boradesanket13" alt="boradesanket13" /></a>
