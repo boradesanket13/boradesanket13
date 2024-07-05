@@ -10,7 +10,7 @@
 ## 🌟 This is me
 🎓 I'm a Full stack developer. I work mainly with MERN stack and have a good understanding of its Ecosystem. 
 
-📘 I’m interested in web development and cloud computing.
+📘 Currently I’m learning cloud computing.
 
 😁 FunFact about me: If I could win a lifetime supply of one type of clothing, it would be hoodies.
                 
