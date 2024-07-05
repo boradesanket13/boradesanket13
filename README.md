@@ -8,9 +8,9 @@
 <p align="centre"> <img src="https://komarev.com/ghpvc/?username=boradesanket13&label=Profile%20views&color=FF00FF&style=flat" alt="boradesanket13" /> 
 
 ## 🌟 This is me
-🎓 I’m a final year Computer Science undergrad at Savitribai Phule Pune University. I'm a MERN stack developer. I work mainly with React and have a good understanding of its Ecosystem.
+🎓 I'm a Full stack developer. I work mainly with MERN stack and have a good understanding of its Ecosystem.
 
-📘 I’m interested in open source, UI/UX, web development, and cloud computing.
+📘 I’m interested in web development and cloud computing.
   
 😁 FunFact about me: If I could win a lifetime supply of one type of clothing, it would be hoodies.
                 
@@ -70,14 +70,14 @@
  
 <p>
 
--->
+
 
          
 ## ⭐ GitHub Trophies and Achievements
 <p align="centre"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=boradesanket13" alt="boradesanket13" /></a>
  </p>
  </p>
-
+-->
 ## 🤗 Connect with me
 <!--
 <a href="https://linkedin.com/in/boradesanket13" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="boradesanket13" height="30" width="40" /></a>
