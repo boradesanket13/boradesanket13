@@ -98,7 +98,7 @@
 <br>
 🤖 Twitter: <a href="https://twitter.com/boradesanket13">@boradesanket13</a>
 <br>
-📜 Medium: <a href="http://medium.com/@boradesanket13">@boradesanket13</a>
+📜 Newsletter: <a href="https://boradesanket13.hashnode.dev/newsletter">@boradesanket13</a>
 <br>
 ✉️ Email: <a herf="mailto:boradesanket13@gmail.com">boradesanket13@gmail.com</a>
 <br>
