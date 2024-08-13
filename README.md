@@ -17,17 +17,6 @@
          
 
 
-         
-## 📜 Recent Blogs Posts
-<!-- BLOG-POST-LIST:START -->
-- [Sky is Big Enough for Multiple Clouds](https://boradesanket13.medium.com/sky-is-big-enough-for-multiple-clouds-ee8260b2f1dc?source=rss-7a3d293ee337------2)
-- [From Chaos to Clarity: Organizing Node Modules with Git One liner](https://boradesanket13.medium.com/gitignore-using-the-universal-one-liner-990986912296?source=rss-7a3d293ee337------2)
-- [Why Every Tech Company Needs a Developer Advocate &lpar;And How to Be One&rpar;](https://boradesanket13.medium.com/why-every-tech-company-needs-a-developer-advocate-and-how-to-be-one-d6293186fb34?source=rss-7a3d293ee337------2)
-- [Mastering Git and GitHub: Your Ultimate Guide to Learning and Using these Essential Tools](https://towardsdev.com/mastering-git-and-github-your-ultimate-guide-to-learning-and-using-these-essential-tools-8853a050ebd4?source=rss-7a3d293ee337------2)
-- [My Experience as an Open-source Project Maintainer at Hacktoberfest by Sanket Borade](https://boradesanket13.medium.com/my-experience-as-an-open-source-project-maintainer-at-hacktoberfest-by-sanket-borade-9f0bf78ff5aa?source=rss-7a3d293ee337------2)
-<!-- BLOG-POST-LIST:END -->
-
-
 <!--
 ## ⚒ My Stack
 
