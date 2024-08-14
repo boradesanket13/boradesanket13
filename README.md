@@ -17,6 +17,11 @@
          
 ## 📩 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Easiest way to deploy your website using Microsoft Azure App Services](https://boradesanket13.hashnode.dev/easiest-way-to-deploy-your-website-using-microsoft-azure-app-services-d074d8ffc7c0)
+- [Repositories to Master ReactJS](https://boradesanket13.hashnode.dev/repositories-to-master-reactjs)
+- [How to use action verbs to make your resume more impactful](https://boradesanket13.hashnode.dev/how-to-use-action-verbs-to-make-your-resume-more-impactful-7e535f6f60ad)
+- [Web3 Power Players: The Top DAOs and Communities for Learning and Engaging with Web3](https://boradesanket13.hashnode.dev/web3-power-players-the-top-daos-and-communities-for-learning-and-engaging-with-web3-b6c7d64e6249)
+- [Top websites to find Hackathons](https://boradesanket13.hashnode.dev/top-websites-to-find-hackathons-dc093f864b3e)
 <!-- BLOG-POST-LIST:END -->
 
 <!--
