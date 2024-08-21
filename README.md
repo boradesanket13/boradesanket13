@@ -15,7 +15,7 @@
 😁 FunFact about me: If I could win a lifetime supply of one type of clothing, it would be hoodies.
                 
          
-## 📩 Latest Blog Posts
+## 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
 - [Easiest way to deploy your website using Microsoft Azure App Services](https://boradesanket13.hashnode.dev/easiest-way-to-deploy-your-website-using-microsoft-azure-app-services-d074d8ffc7c0)
 - [Repositories to Master ReactJS](https://boradesanket13.hashnode.dev/repositories-to-master-reactjs)
