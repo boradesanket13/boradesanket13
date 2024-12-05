@@ -10,10 +10,10 @@
 </div>
 
 ## 🌟 This is me
-🎓 I'm a Full stack developer. I work mainly with MERN stack and have a good understanding of its Ecosystem. <br>
-📘 Currently I’m exploring cloud computin and working on [Shikshasetu](https://github.com/boradesanket13/shikshasetu)<br>
-😁 FunFact about me: If I could win a lifetime supply of one type of clothing, it would be hoodies.
-                
+🎓 I'm a Software Developer Engineer. I work mainly with MERN stack and Cloud Technologies have a good understanding of their ecosystem. <br>
+📘 Currently I’m exploring AWS and working on [Shikshasetu](https://github.com/boradesanket13/shikshasetu)<br>
+😁 FunFact about me: If I could win a lifetime supply of one type of clothing, it would be hoodies. In my free time, I like to share my thoughts and experiences on Hashnode.
+
          
 ## 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
