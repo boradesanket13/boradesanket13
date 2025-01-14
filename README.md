@@ -4,11 +4,6 @@
          height="45"
          width="45" />𝗜'𝗺 Sanket Borade</h1>
 
-<div style="text-align: center;">
-         <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=GitHub%20Stars%20Earned&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/boradesanket13" alt="GitHub Stars">
-         <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=GitHub%20Forks%20Received&style=for-the-badge&query=%24.forks&url=https://api.github-star-counter.workers.dev/user/boradesanket13" alt="GitHub Forks">
-</div>
-
 ## 🌟 This is me
 🎓 I'm a Software Developer Engineer. I work mainly with MERN stack and Cloud Technologies have a good understanding of their ecosystem. <br>
 📘 Currently I’m exploring AWS and working on [Shikshasetu](https://github.com/boradesanket13/shikshasetu)<br>
