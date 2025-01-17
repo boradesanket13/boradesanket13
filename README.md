@@ -20,7 +20,7 @@
 <!-- BLOG-POST-LIST:END -->
 
 ## 🤗 Connect with me
-🌐 Portfolio: <a href="https://sanketborade.is-a.dev/">sanketborade.is-a.dev</a> <br>
+🌐 Portfolio: <a href="https://sanketborade.bio.link/">https://sanketborade.bio.link/</a> <br>
 🤝 LinkedIn: <a href="https://www.linkedin.com/in/boradesanket13/">@boradesanket13</a>  <br>
 📜 Blogs: <a href="https://boradesanket13.hashnode.dev/newsletter">@boradesanket13</a> <br>
 🤖 Twitter: <a href="https://twitter.com/boradesanket13">@boradesanket13</a>  <br>
