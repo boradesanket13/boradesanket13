@@ -4,12 +4,12 @@
 - 😁 Fun fact: if I could win a lifetime supply of one type of clothing, it'd be hoodies. 
 
 <!-- STATS:START -->
-### 📊 My GitHub Stats
+### 📊 GitHub Stats
 
-- 👥 Followers: **92** &nbsp;|&nbsp; Following: **56**
+- 👥 Followers: **92** &nbsp;|&nbsp; Following: **52**
 - 📦 Public repos: **39**
-- ⭐ Total Stars Received: **106** &nbsp;|&nbsp; 🍴 Total Forks Received: **168**
-- 🔥 Contributions (past year): **29** &nbsp;|&nbsp; Current streak: **1** days &nbsp;|&nbsp; Longest streak: **1** days
+- ⭐ Total stars across repos: **106** &nbsp;|&nbsp; 🍴 Total forks: **168**
+- 🔥 Contributions (past year): **30** &nbsp;|&nbsp; Current streak: **1** days &nbsp;|&nbsp; Longest streak: **1** days
 
 | Repo | Description | Language | ⭐ Stars | 🍴 Forks |
 |---|---|---|---|---|
