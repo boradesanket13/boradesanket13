@@ -23,7 +23,7 @@
 
 
 <!-- STATS:START -->
-### 📊 GitHub Stats (auto-updated)
+### 📊 GitHub Stats
 
 - 👥 Followers: **92** &nbsp;|&nbsp; Following: **56**
 - 📦 Public repos: **40**
