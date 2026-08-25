@@ -1,4 +1,4 @@
-<h1 align="left"><a href="https://www.linkedin.com/in/boradesanket13/">𝗛𝗶!<img src="https://user-images.githubusercontent.com/79035081/208421932-fddfb58d-03e8-40ee-90f0-e6daa850186f.gif" alt="Waving hand animated gif" height="45" width="45" />𝗜'𝗺 Sanket Borade</h1>
+## 𝗜'𝗺 Sanket Borade
 
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=boradesanket13&label=Profile%20Views&color=FF00FF&style=flat" alt="Profile views" />
