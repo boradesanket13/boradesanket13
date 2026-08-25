@@ -76,11 +76,11 @@
 ---
 
 <!-- BLOGS:START -->
-### 📝 Latest Blog Posts
-- Posts will appear here automatically once the workflow runs.
+### 📝 Latest Blog Posts (dev.to)
+- No posts found.
 
-### 🔥 Most Popular Blog Posts
-- Posts will appear here automatically once the workflow runs.
+### 🔥 Most Popular Blog Posts (dev.to)
+- No engagement data available.
 <!-- BLOGS:END -->
 
 ---
