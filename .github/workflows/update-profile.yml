@@ -1,0 +1,192 @@
+name: Update Profile README
+
+on:
+  schedule:
+    - cron: '5 * * * *'
+  workflow_dispatch: {}     # allows manual trigger from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v5
+
+      # ---------- STEP 1: GitHub stats ----------
+      - name: Update GitHub stats
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: boradesanket13
+        run: |
+          set -e
+
+          PROFILE_JSON=$(curl -s -H "Authorization: token $GH_TOKEN" \
+            "https://api.github.com/users/$GH_USER")
+          FOLLOWERS=$(echo "$PROFILE_JSON" | jq '.followers')
+          FOLLOWING=$(echo "$PROFILE_JSON" | jq '.following')
+          PUBLIC_REPOS=$(echo "$PROFILE_JSON" | jq '.public_repos')
+
+          REPOS_JSON=$(curl -s -H "Authorization: token $GH_TOKEN" \
+            "https://api.github.com/users/$GH_USER/repos?per_page=100&sort=updated")
+
+          TOTAL_STARS=$(echo "$REPOS_JSON" | jq '[.[].stargazers_count] | add')
+          TOTAL_FORKS=$(echo "$REPOS_JSON" | jq '[.[].forks_count] | add')
+
+          # --- Contribution calendar (total / current streak / longest streak) via GraphQL ---
+          GRAPHQL_QUERY=$(cat <<EOF
+          {
+            "query": "query(\$login: String!) { user(login: \$login) { contributionsCollection { contributionCalendar { totalContributions weeks { contributionDays { date contributionCount } } } } } }",
+            "variables": { "login": "$GH_USER" }
+          }
+          EOF
+          )
+
+          CAL_JSON=$(curl -s -H "Authorization: bearer $GH_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "$GRAPHQL_QUERY" \
+            https://api.github.com/graphql)
+
+          TOTAL_CONTRIBUTIONS=$(echo "$CAL_JSON" | jq '.data.user.contributionsCollection.contributionCalendar.totalContributions')
+
+          read CURRENT_STREAK LONGEST_STREAK <<< $(echo "$CAL_JSON" | jq -r '
+            [.data.user.contributionsCollection.contributionCalendar.weeks[].contributionDays[]] as $days
+            | ($days | length) as $n
+            | (reduce range(0; $n) as $i
+                ({cur:0, longest:0, streak:0, broke:false};
+                  ($days[$i].contributionCount > 0) as $has
+                  | if $has then .streak += 1 else .streak = 0 end
+                  | .longest = ([.longest, .streak] | max)
+                )
+              ) as $acc
+            | ($days | reverse) as $rdays
+            | (reduce range(0; $n) as $i
+                ({cur:0, stop:false};
+                  if .stop then .
+                  elif ($rdays[$i].contributionCount > 0) then .cur += 1
+                  elif $i == 0 then .
+                  else .stop = true
+                  end
+                )
+              ) as $curAcc
+            | "\($curAcc.cur) \($acc.longest)"
+          ')
+
+          TABLE_ROWS=$(echo "$REPOS_JSON" | jq -r '
+            sort_by(-.stargazers_count) |
+            .[] |
+            select(.stargazers_count > 0 or .forks_count > 0) |
+            "| [\(.name)](\(.html_url)) | \(.description // "-" | gsub("\\|"; "\\|")) | \(.language // "-") | \(.stargazers_count) | \(.forks_count) |"
+          ')
+
+          {
+            echo "<!-- STATS:START -->"
+            echo "### 📊 GitHub Stats"
+            echo ""
+            echo "- 👥 Followers: **$FOLLOWERS** &nbsp;|&nbsp; Following: **$FOLLOWING**"
+            echo "- 📦 Public repos: **$PUBLIC_REPOS**"
+            echo "- ⭐ Total stars across repos: **$TOTAL_STARS** &nbsp;|&nbsp; 🍴 Total forks: **$TOTAL_FORKS**"
+            echo "- 🔥 Contributions (past year): **$TOTAL_CONTRIBUTIONS** &nbsp;|&nbsp; Current streak: **$CURRENT_STREAK** days &nbsp;|&nbsp; Longest streak: **$LONGEST_STREAK** days"
+            echo ""
+            echo "| Repo | Description | Language | ⭐ Stars | 🍴 Forks |"
+            echo "|---|---|---|---|---|"
+            echo "$TABLE_ROWS"
+            echo "<!-- STATS:END -->"
+          } > stats_block.md
+
+          if ! grep -q "<!-- STATS:START -->" README.md; then
+            printf "\n<!-- STATS:START -->\n<!-- STATS:END -->\n" >> README.md
+          fi
+
+          awk '
+            /<!-- STATS:START -->/ { skip=1; while ((getline line < "stats_block.md") > 0) print line; close("stats_block.md") }
+            /<!-- STATS:END -->/ { skip=0; next }
+            !skip { print }
+          ' README.md > README.tmp && mv README.tmp README.md
+
+          rm -f stats_block.md
+
+      - name: Commit stats update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: update GitHub stats [skip ci]"
+          git push
+
+      # ---------- STEP 2: Latest & most popular blog posts (dev.to) ----------
+      - name: Update blog posts (latest + most popular)
+        env:
+          DEVTO_USER: boradesanket13
+        run: |
+          python3 <<'PYEOF'
+          import json, urllib.request
+          from datetime import datetime, timezone
+          import os
+
+          devto_user = os.environ["DEVTO_USER"]
+
+          posts = []  # each: {title, url, date, engagement}
+
+          def parse_date(s):
+              try:
+                  return datetime.fromisoformat(s.replace("Z", "+00:00")).astimezone(timezone.utc)
+              except Exception:
+                  return datetime.now(timezone.utc)
+
+          # --- dev.to (public API: reactions + comments) ---
+          try:
+              url = f"https://dev.to/api/articles?username={devto_user}"
+              with urllib.request.urlopen(url, timeout=15) as r:
+                  data = json.load(r)
+              for a in data:
+                  eng = a.get("public_reactions_count", 0) + a.get("comments_count", 0)
+                  posts.append({"title": a["title"], "url": a["url"],
+                                 "date": parse_date(a["published_at"]),
+                                 "engagement": eng})
+          except Exception as e:
+              print("dev.to fetch failed:", e)
+
+          latest = sorted(posts, key=lambda p: p["date"], reverse=True)[:3]
+          popular = sorted(posts, key=lambda p: p["engagement"], reverse=True)[:3]
+
+          lines = ["<!-- BLOGS:START -->", "### 📝 Latest Blog Posts (dev.to)"]
+          if latest:
+              for p in latest:
+                  lines.append(f"- [{p['title']}]({p['url']})")
+          else:
+              lines.append("- No posts found.")
+
+          lines += ["", "### 🔥 Most Popular Blog Posts (dev.to)"]
+          if popular:
+              for p in popular:
+                  lines.append(f"- [{p['title']}]({p['url']}) _({p['engagement']} reactions+comments)_")
+          else:
+              lines.append("- No engagement data available.")
+          lines.append("<!-- BLOGS:END -->")
+
+          with open("blogs_block.md", "w") as f:
+              f.write("\n".join(lines) + "\n")
+          PYEOF
+
+          if ! grep -q "<!-- BLOGS:START -->" README.md; then
+            printf "\n<!-- BLOGS:START -->\n<!-- BLOGS:END -->\n" >> README.md
+          fi
+
+          awk '
+            /<!-- BLOGS:START -->/ { skip=1; while ((getline line < "blogs_block.md") > 0) print line; close("blogs_block.md") }
+            /<!-- BLOGS:END -->/ { skip=0; next }
+            !skip { print }
+          ' README.md > README.tmp && mv README.tmp README.md
+
+          rm -f blogs_block.md
+
+      - name: Commit blog posts update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: update blog posts [skip ci]"
+          git push
