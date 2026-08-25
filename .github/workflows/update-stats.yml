@@ -2,8 +2,8 @@ name: Update GitHub Stats
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
-  workflow_dispatch: {}     
+    - cron: '0 0 * * *'
+  workflow_dispatch: {}  
 
 permissions:
   contents: write
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Fetch stats and update README
         env:
@@ -28,13 +28,6 @@ jobs:
           FOLLOWERS=$(echo "$PROFILE_JSON" | jq '.followers')
           FOLLOWING=$(echo "$PROFILE_JSON" | jq '.following')
           PUBLIC_REPOS=$(echo "$PROFILE_JSON" | jq '.public_repos')
-
-          # --- Starred-by-user count ---
-          STARRED_COUNT=$(curl -s -H "Authorization: token $GH_TOKEN" \
-            "https://api.github.com/users/$GH_USER/starred?per_page=1" -I \
-            | grep -i '^link:' \
-            | sed -n 's/.*page=\([0-9]*\)>; rel="last".*/\1/p')
-          STARRED_COUNT=${STARRED_COUNT:-"N/A"}
 
           # --- Per-repo stars/forks (all repos, sorted by stars desc) ---
           REPOS_JSON=$(curl -s -H "Authorization: token $GH_TOKEN" \
@@ -58,13 +51,10 @@ jobs:
             echo "- 👥 Followers: **$FOLLOWERS** &nbsp;|&nbsp; Following: **$FOLLOWING**"
             echo "- 📦 Public repos: **$PUBLIC_REPOS**"
             echo "- ⭐ Total stars across repos: **$TOTAL_STARS** &nbsp;|&nbsp; 🍴 Total forks: **$TOTAL_FORKS**"
-            echo "- 🌟 Repos starred by me: **$STARRED_COUNT**"
             echo ""
             echo "| Repo | Language | ⭐ Stars | 🍴 Forks |"
             echo "|---|---|---|---|"
             echo "$TABLE_ROWS"
-            echo ""
-            echo "_Last updated: $(date -u '+%Y-%m-%d %H:%M UTC')_"
             echo "<!-- STATS:END -->"
           } > stats_block.md
 
