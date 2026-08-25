@@ -1,0 +1,26 @@
+name: Update Latest Blog Posts
+
+on:
+  schedule:
+    - cron: '0 4 * * *'   # runs daily at 04:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-blogs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v5
+
+      - name: Pull latest posts into README
+        uses: gautamkrishnar/blog-post-workflow@v2
+        with:
+          comment_tag_name: 'BLOGS'
+          feed_list: |
+            https://medium.com/feed/@boradesanket13,
+            https://boradesanket13.hashnode.dev/rss.xml
+          max_post_count: 5
+          template: '- 📝 [$title]($url)'
