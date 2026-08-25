@@ -1,44 +1,14 @@
 ## 𝗜'𝗺 Sanket Borade✨
-
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=boradesanket13&label=Profile%20Views&color=FF00FF&style=flat" alt="Profile views" />
-  <a href="https://www.linkedin.com/in/boradesanket13/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
-  <a href="https://twitter.com/boradesanket13"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white" /></a>
-  <a href="https://dev.to/boradesanket13"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=flat&logo=devdotto&logoColor=white" /></a>
-  <a href="mailto:boradesanket13@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" /></a>
-</p>
-
-## 🌟 About Me
-
-🎓 Software Development Engineer, backend-focused — working mainly with **Java/Spring Boot, MERN, AWS and GCP**
-
-📘 Currently exploring **AWS** and building [Shikshasetu](https://github.com/boradesanket13/shikshasetu).
-
-😁 Fun fact: if I could win a lifetime supply of one type of clothing, it'd be hoodies. 
-
-## 🛠️ Tech Stack
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=java,spring,kafka,kubernetes,docker,aws,react,angular,nextjs,ts,js,html,css,git,linux" />
-</p>
-
-## 🤗 Connect With Me
-
-| | |
-|---|---|
-| 🤝 LinkedIn | [@boradesanket13](https://www.linkedin.com/in/boradesanket13/) |
-| 📜 Dev.to (Blogs) | [@boradesanket13](https://dev.to/boradesanket13) |
-| 🤖 Twitter | [@boradesanket13](https://twitter.com/boradesanket13) |
-| ✉️ Email | [boradesanket13@gmail.com](mailto:boradesanket13@gmail.com) |
-
----
+- 🎓 Software Development Engineer, working mainly with **Java/Spring Boot, MERN, and AWS**.
+- 📘 Currently exploring **AWS** and building [Shikshasetu](https://github.com/boradesanket13/shikshasetu).
+- 😁 Fun fact: if I could win a lifetime supply of one type of clothing, it'd be hoodies. 
 
 <!-- STATS:START -->
-### 📊 GitHub Stats
+### 📊 My GitHub Stats
 
 - 👥 Followers: **92** &nbsp;|&nbsp; Following: **56**
 - 📦 Public repos: **39**
-- ⭐ Total stars across repos: **106** &nbsp;|&nbsp; 🍴 Total forks: **168**
+- ⭐ Total Stars Received: **106** &nbsp;|&nbsp; 🍴 Total Forks Received: **168**
 - 🔥 Contributions (past year): **29** &nbsp;|&nbsp; Current streak: **1** days &nbsp;|&nbsp; Longest streak: **1** days
 
 | Repo | Description | Language | ⭐ Stars | 🍴 Forks |
@@ -83,4 +53,22 @@
 - No engagement data available.
 <!-- BLOGS:END -->
 
+---
+
+## 🛠️ Tech Stack
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=java,spring,kafka,kubernetes,docker,aws,react,angular,nextjs,ts,js,html,css,git,linux" />
+</p>
+
+---
+
+## 🤗 Connect With Me
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=boradesanket13&label=Profile%20Views&color=FF00FF&style=flat" alt="Profile views" />
+  <a href="https://www.linkedin.com/in/boradesanket13/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
+  <a href="https://twitter.com/boradesanket13"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white" /></a>
+  <a href="https://dev.to/boradesanket13"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=flat&logo=devdotto&logoColor=white" /></a>
+  <a href="mailto:boradesanket13@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" /></a>
+</p>
 ---
