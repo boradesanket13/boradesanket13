@@ -1,26 +1,36 @@
+<h1 align="left"><a href="https://www.linkedin.com/in/boradesanket13/">𝗛𝗶!<img src="https://user-images.githubusercontent.com/79035081/208421932-fddfb58d-03e8-40ee-90f0-e6daa850186f.gif" alt="Waving hand animated gif" height="45" width="45" />𝗜'𝗺 Sanket Borade</h1>
 
-<h1 align="left"><a herf="https://www.linkedin.com/in/boradesanket13/"> 𝗛𝗶!<img src="https://user-images.githubusercontent.com/79035081/208421932-fddfb58d-03e8-40ee-90f0-e6daa850186f.gif" 
-         alt="Waving hand animated gif"
-         height="45"
-         width="45" />𝗜'𝗺 Sanket Borade</h1>
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=boradesanket13&label=Profile%20Views&color=FF00FF&style=flat" alt="Profile views" />
+  <a href="https://www.linkedin.com/in/boradesanket13/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
+  <a href="https://twitter.com/boradesanket13"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white" /></a>
+  <a href="https://boradesanket13.hashnode.dev/newsletter"><img src="https://img.shields.io/badge/Hashnode-2962FF?style=flat&logo=hashnode&logoColor=white" /></a>
+  <a href="mailto:boradesanket13@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" /></a>
+</p>
 
-## 🌟 This is me
-🎓 I'm a Software Developer Engineer. I work mainly with MERN stack and Cloud Technologies have a good understanding of their ecosystem. <br>
-📘 Currently I’m exploring AWS and working on [Shikshasetu](https://github.com/boradesanket13/shikshasetu)<br>
-😁 FunFact about me: If I could win a lifetime supply of one type of clothing, it would be hoodies. In my free time, I like to share my thoughts and experiences on Hashnode.
+## 🌟 About Me
 
+🎓 Software Development Engineer, backend-focused — working mainly with **Java, Spring Boot, and Cloud technologies**, with a solid grip on the MERN stack as well.
+📘 Currently exploring **AWS** and building [Shikshasetu](https://github.com/boradesanket13/shikshasetu).
+🏆 Competitive programmer — ICPC Regionalist · Codeforces Expert · CodeChef 4★ · LeetCode Guardian · 5,000+ DSA problems solved.
+😁 Fun fact: if I could win a lifetime supply of one type of clothing, it'd be hoodies. In my free time, I write and share what I learn on Hashnode.
 
-## 🤗 Connect with me
-🤝 LinkedIn: <a href="https://www.linkedin.com/in/boradesanket13/">@boradesanket13</a>  <br>
-📜 Blogs: <a href="https://boradesanket13.hashnode.dev/newsletter">@boradesanket13</a> <br>
-🤖 Twitter: <a href="https://twitter.com/boradesanket13">@boradesanket13</a>  <br>
-✉️ Email: <a herf="mailto:boradesanket13@gmail.com">boradesanket13@gmail.com</a> <br>
+## 🛠️ Tech Stack
 
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=java,spring,kafka,oracle,kubernetes,docker,aws,react,angular,nextjs,ts,js,html,css,git,linux" />
+</p>
 
-<img src="https://komarev.com/ghpvc/?username=boradesanket13&label=GitHub%20Profile%20Views&color=FF00FF&style=flat" alt="boradesanket13" />
+## 🤗 Connect With Me
 
+| | |
+|---|---|
+| 🤝 LinkedIn | [@boradesanket13](https://www.linkedin.com/in/boradesanket13/) |
+| 📜 Blogs | [@boradesanket13](https://boradesanket13.hashnode.dev/newsletter) |
+| 🤖 Twitter | [@boradesanket13](https://twitter.com/boradesanket13) |
+| ✉️ Email | [boradesanket13@gmail.com](mailto:boradesanket13@gmail.com) |
 
-
+---
 
 <!-- STATS:START -->
 ### 📊 GitHub Stats
@@ -28,7 +38,6 @@
 - 👥 Followers: **92** &nbsp;|&nbsp; Following: **56**
 - 📦 Public repos: **40**
 - ⭐ Total stars across repos: **107** &nbsp;|&nbsp; 🍴 Total forks: **168**
-- 🌟 Repos starred by me: **73**
 
 | Repo | Language | ⭐ Stars | 🍴 Forks |
 |---|---|---|---|
@@ -61,6 +70,26 @@
 | [climate-awareness](https://github.com/boradesanket13/climate-awareness) | JavaScript | 1 | 0 |
 | [Cancer-Foundation-of-India-official-website](https://github.com/boradesanket13/Cancer-Foundation-of-India-official-website) | HTML | 1 | 0 |
 | [QuittersforGood](https://github.com/boradesanket13/QuittersforGood) | - | 1 | 0 |
-
-_Last updated: 2026-08-25 10:01 UTC_
 <!-- STATS:END -->
+
+---
+
+<!-- BLOGS:START -->
+### 📝 Latest Blog Posts
+- Posts will appear here automatically once the blog-update workflow runs.
+<!-- BLOGS:END -->
+
+---
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=boradesanket13&show_icons=true&theme=radical&hide_border=true&count_private=true" height="165" alt="GitHub stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=boradesanket13&theme=radical&hide_border=true" height="165" alt="GitHub streak" />
+</p>
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=boradesanket13&layout=compact&theme=radical&hide_border=true" alt="Top languages" />
+</p>
+
+<p align="left">
+  <img src="https://github-profile-trophy.vercel.app/?username=boradesanket13&theme=radical&no-frame=true&row=1&column=4" alt="Trophies" />
+</p>
