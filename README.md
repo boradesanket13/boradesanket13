@@ -10,9 +10,10 @@
 
 ## 🌟 About Me
 
-🎓 Software Development Engineer, backend-focused — working mainly with **Java, Spring Boot, and Cloud technologies**, with a solid grip on the MERN stack as well.
+🎓 Software Development Engineer, backend-focused — working mainly with **Java, Spring Boot, MERN and Cloud technologies**.
+
 📘 Currently exploring **AWS** and building [Shikshasetu](https://github.com/boradesanket13/shikshasetu).
-🏆 Competitive programmer — ICPC Regionalist · Codeforces Expert · CodeChef 4★ · LeetCode Guardian · 5,000+ DSA problems solved.
+
 😁 Fun fact: if I could win a lifetime supply of one type of clothing, it'd be hoodies. In my free time, I write and share what I learn on Hashnode.
 
 ## 🛠️ Tech Stack
