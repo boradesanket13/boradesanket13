@@ -8,7 +8,7 @@
 
 - 👥 Followers: **92** &nbsp;|&nbsp; Following: **52**
 - 📦 Public repos: **39**
-- ⭐ Total stars across repos: **106** &nbsp;|&nbsp; 🍴 Total forks: **168**
+- ⭐ Total stars across repos: **105** &nbsp;|&nbsp; 🍴 Total forks: **168**
 - 🔥 Contributions (past year): **30** &nbsp;|&nbsp; Current streak: **1** days &nbsp;|&nbsp; Longest streak: **1** days
 
 | Repo | Description | Language | ⭐ Stars | 🍴 Forks |
@@ -28,7 +28,6 @@
 | [nexus](https://github.com/boradesanket13/nexus) | - | HTML | 2 | 2 |
 | [Job-and-Scholarship-Updates](https://github.com/boradesanket13/Job-and-Scholarship-Updates) | - | - | 2 | 0 |
 | [boradesanket13](https://github.com/boradesanket13/boradesanket13) | GitHub Profile Readme | - | 1 | 0 |
-| [AWS-SAA](https://github.com/boradesanket13/AWS-SAA) | - | Shell | 1 | 0 |
 | [MERN-food-ordering-app-backend](https://github.com/boradesanket13/MERN-food-ordering-app-backend) | - | TypeScript | 1 | 0 |
 | [Blockchain-FundSeed](https://github.com/boradesanket13/Blockchain-FundSeed) | Demo Video Link: | JavaScript | 1 | 1 |
 | [clicomm](https://github.com/boradesanket13/clicomm) | https://clicomm.vercel.app/ | JavaScript | 1 | 0 |
