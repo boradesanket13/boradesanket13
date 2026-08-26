@@ -116,17 +116,21 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: update GitHub stats [skip ci]"
           git push
 
-      # ---------- STEP 2: Latest & most popular blog posts (dev.to) ----------
+      # ---------- STEP 2: Latest & most popular blog posts (Hashnode) ----------
       - name: Update blog posts (latest + most popular)
         env:
-          DEVTO_USER: boradesanket13
+          # The subdomain/custom domain your Hashnode blog is published at,
+          # e.g. "boradesanket13.hashnode.dev" or a custom domain like "blog.example.com"
+          HASHNODE_HOST: boradesanket13.hashnode.dev
+          # Uncomment to also re-enable the dev.to block in the script below:
+          # DEVTO_USER: boradesanket13
         run: |
           python3 <<'PYEOF'
           import json, urllib.request
           from datetime import datetime, timezone
           import os
 
-          devto_user = os.environ["DEVTO_USER"]
+          hashnode_host = os.environ["HASHNODE_HOST"]
 
           posts = []  # each: {title, url, date, engagement}
 
@@ -136,30 +140,85 @@ jobs:
               except Exception:
                   return datetime.now(timezone.utc)
 
-          # --- dev.to (public API: reactions + comments) ---
+          # --- Hashnode (public GraphQL API: reactions + response/comment counts) ---
           try:
-              url = f"https://dev.to/api/articles?username={devto_user}"
-              with urllib.request.urlopen(url, timeout=15) as r:
+              query = """
+              query Publication($host: String!) {
+                publication(host: $host) {
+                  posts(first: 20) {
+                    edges {
+                      node {
+                        title
+                        url
+                        publishedAt
+                        reactionCount
+                        responseCount
+                      }
+                    }
+                  }
+                }
+              }
+              """
+              payload = json.dumps({
+                  "query": query,
+                  "variables": {"host": hashnode_host}
+              }).encode("utf-8")
+
+              req = urllib.request.Request(
+                  "https://gql.hashnode.com/",
+                  data=payload,
+                  headers={"Content-Type": "application/json"},
+                  method="POST",
+              )
+              with urllib.request.urlopen(req, timeout=15) as r:
                   data = json.load(r)
-              for a in data:
-                  eng = a.get("public_reactions_count", 0) + a.get("comments_count", 0)
-                  posts.append({"title": a["title"], "url": a["url"],
-                                 "date": parse_date(a["published_at"]),
-                                 "engagement": eng})
+
+              edges = (
+                  data.get("data", {})
+                      .get("publication", {})
+                      .get("posts", {})
+                      .get("edges", [])
+              )
+              for e in edges:
+                  n = e["node"]
+                  eng = n.get("reactionCount", 0) + n.get("responseCount", 0)
+                  posts.append({
+                      "title": n["title"],
+                      "url": n["url"],
+                      "date": parse_date(n["publishedAt"]),
+                      "engagement": eng,
+                  })
           except Exception as e:
-              print("dev.to fetch failed:", e)
+              print("Hashnode fetch failed:", e)
+
+          # --- dev.to (public API: reactions + comments) ---
+          # Kept here in case you want to re-enable dev.to alongside/instead of Hashnode.
+          # To use it: uncomment this block and set a DEVTO_USER env var on the step.
+          #
+          # devto_user = os.environ.get("DEVTO_USER", "")
+          # try:
+          #     url = f"https://dev.to/api/articles?username={devto_user}"
+          #     with urllib.request.urlopen(url, timeout=15) as r:
+          #         data = json.load(r)
+          #     for a in data:
+          #         eng = a.get("public_reactions_count", 0) + a.get("comments_count", 0)
+          #         posts.append({"title": a["title"], "url": a["url"],
+          #                        "date": parse_date(a["published_at"]),
+          #                        "engagement": eng})
+          # except Exception as e:
+          #     print("dev.to fetch failed:", e)
 
           latest = sorted(posts, key=lambda p: p["date"], reverse=True)[:3]
           popular = sorted(posts, key=lambda p: p["engagement"], reverse=True)[:3]
 
-          lines = ["<!-- BLOGS:START -->", "### 📝 Latest Blog Posts (dev.to)"]
+          lines = ["<!-- BLOGS:START -->", "### 📝 Latest Blog Posts (Hashnode)"]
           if latest:
               for p in latest:
                   lines.append(f"- [{p['title']}]({p['url']})")
           else:
               lines.append("- No posts found.")
 
-          lines += ["", "### 🔥 Most Popular Blog Posts (dev.to)"]
+          lines += ["", "### 🔥 Most Popular Blog Posts (Hashnode)"]
           if popular:
               for p in popular:
                   lines.append(f"- [{p['title']}]({p['url']}) _({p['engagement']} reactions+comments)_")
