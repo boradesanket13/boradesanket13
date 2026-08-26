@@ -45,10 +45,10 @@
 ---
 
 <!-- BLOGS:START -->
-### 📝 Latest Blog Posts (dev.to)
+### 📝 Latest Blog Posts (Hashnode)
 - No posts found.
 
-### 🔥 Most Popular Blog Posts (dev.to)
+### 🔥 Most Popular Blog Posts (Hashnode)
 - No engagement data available.
 <!-- BLOGS:END -->
 
