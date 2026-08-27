@@ -7,7 +7,7 @@
 ### 📊 GitHub Stats
 
 - 👥 Followers: **92** &nbsp;|&nbsp; Following: **52**
-- 📦 Public repos: **39**
+- 📦 Public repos: **38**
 - ⭐ Total stars across repos: **105** &nbsp;|&nbsp; 🍴 Total forks: **168**
 - 🔥 Contributions (past year): **31** &nbsp;|&nbsp; Current streak: **2** days &nbsp;|&nbsp; Longest streak: **2** days
 
