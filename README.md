@@ -76,3 +76,11 @@
 | [climate-awareness](https://github.com/boradesanket13/climate-awareness) | - | JavaScript | 1 | 0 |
 | [Cancer-Foundation-of-India-official-website](https://github.com/boradesanket13/Cancer-Foundation-of-India-official-website) | - | HTML | 1 | 0 |
 <!-- STATS:END -->
+
+<!-- BLOGS:START -->
+### 📝 Latest Blog Posts (Hashnode)
+- No posts found.
+
+### 🔥 Most Popular Blog Posts (Hashnode)
+- No engagement data available.
+<!-- BLOGS:END -->
