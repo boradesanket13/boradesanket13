@@ -6,10 +6,10 @@
 <!-- STATS:START -->
 ### 📊 GitHub Stats
 
-- 👥 Followers: **92** &nbsp;|&nbsp; Following: **52**
+- 👥 Followers: **92** &nbsp;|&nbsp; Following: **48**
 - 📦 Public repos: **38**
 - ⭐ Total stars across repos: **105** &nbsp;|&nbsp; 🍴 Total forks: **168**
-- 🔥 Contributions (past year): **60** &nbsp;|&nbsp; Current streak: **3** days &nbsp;|&nbsp; Longest streak: **3** days
+- 🔥 Contributions (past year): **61** &nbsp;|&nbsp; Current streak: **4** days &nbsp;|&nbsp; Longest streak: **4** days
 
 | Repo | Description | Language | ⭐ Stars | 🍴 Forks |
 |---|---|---|---|---|
