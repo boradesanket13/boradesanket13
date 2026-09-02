@@ -44,7 +44,7 @@
 - 👥 Followers: **92** &nbsp;|&nbsp; Following: **48**
 - 📦 Public repos: **38**
 - ⭐ Total stars across repos: **105** &nbsp;|&nbsp; 🍴 Total forks: **168**
-- 🔥 Contributions (past year): **62** &nbsp;|&nbsp; Current streak: **4** days &nbsp;|&nbsp; Longest streak: **4** days
+- 🔥 Contributions (past year): **62** &nbsp;|&nbsp; Current streak: **0** days &nbsp;|&nbsp; Longest streak: **4** days
 
 | Repo | Description | Language | ⭐ Stars | 🍴 Forks |
 |---|---|---|---|---|
