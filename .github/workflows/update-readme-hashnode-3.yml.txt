@@ -2,7 +2,7 @@ name: Update README with Hashnode Blogs
 
 on:
   schedule:
-    - cron: '0 3 * * *'   # daily at 03:00 UTC
+    - cron: '30 * * * *'   # daily at 03:00 UTC
   workflow_dispatch: {}
 
 permissions:
