@@ -11,7 +11,7 @@
 - **Infra & DevOps:** AWS • Google Cloud • Docker • Kubernetes • Terraform • Ansible • Jenkins
 
 ## Work 
-- **[Tata Consultancy Services](https://www.tcs.com)** — Backend Developer (May 2025 - Present).
+- **[Tata Consultancy Services](https://www.tcs.com)** — Software Engineer (May 2025 - Present).
 - **[Quantiphi](https://quantiphi.com)** — Software Development Engineer (Aug 2024 - Apr 2025).
 
 ## Projects
