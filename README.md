@@ -43,35 +43,43 @@
 
 ## Recent Writings 
 <!-- HASHNODE:START -->
-### Latest Blog Posts
+### 📝 Latest Blog Posts
 
-#### [Automation using GitHub Action to add Blogs to GitHub Profile](https://boradesanket13.hashnode.dev/automation-using-github-action-to-add-blogs-to-github-profile)
-<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1723649939389/37bcbfa1-7df2-4983-8c75-99cc5dceda97.png" width="400"/>
-
-Many years ago, a wise man once told me, "Why spend 5 minutes doing something when you could spend 5 hours failing to automate it?"
-One of the secrets to productivity in life is AUTOMATION! As I plow through life I try to delegate anything repetitive...
-*Published: Sat, 31 Aug 2024 18:30:26 GMT*
-
-#### [Easiest way to deploy your website using Microsoft Azure App Services](https://boradesanket13.hashnode.dev/easiest-way-to-deploy-your-website-using-microsoft-azure-app-services-d074d8ffc7c0)
-<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1723303977498/8a95a199-92d0-4124-93b8-77e190d6531b.png" width="400"/>
-
-Hosting the website and controlling it in real time can be overwhelming to new developers. In this blog, you’ll learn how to deploy your website using Azure.
-Hosting a website on Azure, Microsoft’s cloud computing platform, can provide a number of be...
-*Published: Sat, 10 Aug 2024 18:10:54 GMT*
-
-#### [Repositories to Master ReactJS](https://boradesanket13.hashnode.dev/repositories-to-master-reactjs)
-<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1723303922430/fdde6dcf-52e6-4db7-97bb-002b8877ce6b.png" width="400"/>
-
-About React JS
-React is a popular frontend UI framework that is used in over 50 million projects each month. React, which is backed by Facebook, has dominated the web development space for 10 years and has multiple significant customers ranging from ...
-*Published: Sat, 10 Aug 2024 18:09:35 GMT*
-
-#### [How to use action verbs to make your resume more impactful](https://boradesanket13.hashnode.dev/how-to-use-action-verbs-to-make-your-resume-more-impactful-7e535f6f60ad)
-<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1723304001583/b9c2181e-beec-40c2-bd23-ceda675637b5.jpeg" width="400"/>
-
-We can all agree that your CV is one of the most crucial tools in your career toolkit, whether you’re applying for a full-time work soon, a seasonal position for additional money to buy holiday gifts, or an internship for next summer.
-But are we crea...
-*Published: Sat, 10 Aug 2024 18:07:56 GMT*
-
+<table>
+  <tr>
+    <td width="130"><a href="https://boradesanket13.hashnode.dev/automation-using-github-action-to-add-blogs-to-github-profile"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1723649939389/37bcbfa1-7df2-4983-8c75-99cc5dceda97.png" width="110" style="border-radius:6px;"/></a></td>
+    <td>
+      <a href="https://boradesanket13.hashnode.dev/automation-using-github-action-to-add-blogs-to-github-profile"><b>Automation using GitHub Action to add Blogs to GitHub Profile</b></a><br/>
+      Many years ago, a wise man once told me, "Why spend 5 minutes doing something when you could spend 5 hours failing to automate it?"
+One of…<br/>
+      <sub>Aug 31, 2024</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="130"><a href="https://boradesanket13.hashnode.dev/easiest-way-to-deploy-your-website-using-microsoft-azure-app-services-d074d8ffc7c0"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1723303977498/8a95a199-92d0-4124-93b8-77e190d6531b.png" width="110" style="border-radius:6px;"/></a></td>
+    <td>
+      <a href="https://boradesanket13.hashnode.dev/easiest-way-to-deploy-your-website-using-microsoft-azure-app-services-d074d8ffc7c0"><b>Easiest way to deploy your website using Microsoft Azure App Services</b></a><br/>
+      Hosting the website and controlling it in real time can be overwhelming to new developers. In this blog, you’ll learn how to deploy your…<br/>
+      <sub>Aug 10, 2024</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="130"><a href="https://boradesanket13.hashnode.dev/repositories-to-master-reactjs"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1723303922430/fdde6dcf-52e6-4db7-97bb-002b8877ce6b.png" width="110" style="border-radius:6px;"/></a></td>
+    <td>
+      <a href="https://boradesanket13.hashnode.dev/repositories-to-master-reactjs"><b>Repositories to Master ReactJS</b></a><br/>
+      About React JS
+React is a popular frontend UI framework that is used in over 50 million projects each month. React, which is backed by…<br/>
+      <sub>Aug 10, 2024</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="130"><a href="https://boradesanket13.hashnode.dev/how-to-use-action-verbs-to-make-your-resume-more-impactful-7e535f6f60ad"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1723304001583/b9c2181e-beec-40c2-bd23-ceda675637b5.jpeg" width="110" style="border-radius:6px;"/></a></td>
+    <td>
+      <a href="https://boradesanket13.hashnode.dev/how-to-use-action-verbs-to-make-your-resume-more-impactful-7e535f6f60ad"><b>How to use action verbs to make your resume more impactful</b></a><br/>
+      We can all agree that your CV is one of the most crucial tools in your career toolkit, whether you’re applying for a full-time work soon, a…<br/>
+      <sub>Aug 10, 2024</sub>
+    </td>
+  </tr>
+</table>
 <!-- HASHNODE:END -->
 
