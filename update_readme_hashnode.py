@@ -2,7 +2,7 @@ import json
 import re
 import urllib.request
 
-HASHNODE_HOST = "boradesanket13.hashnode.dev" 
+HASHNODE_HOST = "boradesanket13.hashnode.dev"  
 POST_COUNT = 4
 START_MARKER = "<!-- HASHNODE:START -->"
 END_MARKER = "<!-- HASHNODE:END -->"
@@ -38,7 +38,11 @@ def fetch_hashnode_data():
     req = urllib.request.Request(
         "https://gql.hashnode.com",
         data=payload,
-        headers={"Content-Type": "application/json"},
+        headers={
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "User-Agent": "Mozilla/5.0 (compatible; readme-updater-bot/1.0)",
+        },
         method="POST",
     )
     with urllib.request.urlopen(req, timeout=30) as resp:
