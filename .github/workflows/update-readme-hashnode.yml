@@ -2,7 +2,7 @@ name: Update README with Hashnode Blogs
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 3 * * *'
   workflow_dispatch: {}
 
 permissions:
@@ -21,6 +21,8 @@ jobs:
           python-version: '3.11'
 
       - name: Update README with Hashnode data
+        env:
+          HASHNODE_PAT: ${{ secrets.HASHNODE_PAT }}
         run: python3 update_readme_hashnode.py
 
       - name: Commit and push if changed
