@@ -1,4 +1,5 @@
 import json
+import os
 import re
 import urllib.request
 
@@ -6,6 +7,7 @@ HASHNODE_HOST = "boradesanket13.hashnode.dev"
 POST_COUNT = 4
 START_MARKER = "<!-- HASHNODE:START -->"
 END_MARKER = "<!-- HASHNODE:END -->"
+HASHNODE_PAT = os.environ.get("HASHNODE_PAT") 
 
 QUERY = """
 query GetPosts($host: String!, $first: Int!) {
@@ -35,14 +37,18 @@ def fetch_hashnode_data():
         "variables": {"host": HASHNODE_HOST, "first": POST_COUNT},
     }).encode("utf-8")
 
+    headers = {
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+        "User-Agent": "Mozilla/5.0 (compatible; readme-updater-bot/1.0)",
+    }
+    if HASHNODE_PAT:
+        headers["Authorization"] = HASHNODE_PAT
+
     req = urllib.request.Request(
         "https://gql.hashnode.com",
         data=payload,
-        headers={
-            "Content-Type": "application/json",
-            "Accept": "application/json",
-            "User-Agent": "Mozilla/5.0 (compatible; readme-updater-bot/1.0)",
-        },
+        headers=headers,
         method="POST",
     )
     with urllib.request.urlopen(req, timeout=30) as resp:
