@@ -1,13 +1,14 @@
 import json
 import os
 import re
-import urllib.request
+import subprocess
+import tempfile
 
 HASHNODE_HOST = "boradesanket13.hashnode.dev"  
 POST_COUNT = 4
 START_MARKER = "<!-- HASHNODE:START -->"
 END_MARKER = "<!-- HASHNODE:END -->"
-HASHNODE_PAT = os.environ.get("HASHNODE_PAT") 
+HASHNODE_PAT = os.environ.get("HASHNODE_PAT")  
 
 QUERY = """
 query GetPosts($host: String!, $first: Int!) {
@@ -32,32 +33,40 @@ query GetPosts($host: String!, $first: Int!) {
 
 
 def fetch_hashnode_data():
-    payload = json.dumps({
+    body = json.dumps({
         "query": QUERY,
         "variables": {"host": HASHNODE_HOST, "first": POST_COUNT},
-    }).encode("utf-8")
+    })
 
-    headers = {
-        "Content-Type": "application/json",
-        "Accept": "application/json",
-        "User-Agent": "Mozilla/5.0 (compatible; readme-updater-bot/1.0)",
-    }
-    if HASHNODE_PAT:
-        headers["Authorization"] = HASHNODE_PAT
+    with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as f:
+        f.write(body)
+        payload_path = f.name
 
-    req = urllib.request.Request(
+    cmd = [
+        "curl", "-sS", "-X", "POST",
         "https://gql.hashnode.com",
-        data=payload,
-        headers=headers,
-        method="POST",
-    )
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        result = json.loads(resp.read().decode("utf-8"))
+        "-H", "Content-Type: application/json",
+        "-H", "Accept: application/json",
+        "--data", f"@{payload_path}",
+    ]
+    if HASHNODE_PAT:
+        cmd += ["-H", f"Authorization: {HASHNODE_PAT}"]
 
-    if "errors" in result:
-        raise RuntimeError(f"Hashnode API error: {result['errors']}")
+    result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+    os.unlink(payload_path)
 
-    return result["data"]["publication"]
+    if result.returncode != 0:
+        raise RuntimeError(f"curl failed (exit {result.returncode}): {result.stderr}")
+
+    try:
+        data = json.loads(result.stdout)
+    except json.JSONDecodeError:
+        raise RuntimeError(f"Non-JSON response from Hashnode: {result.stdout[:500]}")
+
+    if "errors" in data:
+        raise RuntimeError(f"Hashnode API error: {data['errors']}")
+
+    return data["data"]["publication"]
 
 
 def build_block(publication):
