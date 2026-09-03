@@ -1,7 +1,7 @@
 # Open source is how I give back what I've learned.
  
 ## About 
-- Software Development Engineer focused on building cloud-native products.
+- Software Engineer focused on building scalable backend systems, distributed services, and reliable cloud-native applications.
 - I build innovative and useful products for the web with great user experience.
 
 ## Tech Stack
