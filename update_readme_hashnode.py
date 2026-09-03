@@ -1,91 +1,67 @@
-import json
-import os
+import html
 import re
-import subprocess
-import tempfile
+import urllib.request
+import xml.etree.ElementTree as ET
 
-HASHNODE_HOST = "boradesanket13.hashnode.dev" 
+HASHNODE_HOST = "boradesanket13.hashnode.dev"  
 POST_COUNT = 4
 START_MARKER = "<!-- HASHNODE:START -->"
 END_MARKER = "<!-- HASHNODE:END -->"
-HASHNODE_PAT = os.environ.get("HASHNODE_PAT")  
 
-QUERY = """
-query GetPosts($host: String!, $first: Int!) {
-  publication(host: $host) {
-    followersCount
-    posts(first: $first) {
-      edges {
-        node {
-          title
-          brief
-          url
-          publishedAt
-          coverImage {
-            url
-          }
-        }
-      }
-    }
-  }
-}
-"""
+RSS_URL = f"https://{HASHNODE_HOST}/rss.xml"
+CONTENT_NS = "{http://purl.org/rss/1.0/modules/content/}"
 
 
-def fetch_hashnode_data():
-    body = json.dumps({
-        "query": QUERY,
-        "variables": {"host": HASHNODE_HOST, "first": POST_COUNT},
-    })
-
-    with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as f:
-        f.write(body)
-        payload_path = f.name
-
-    cmd = [
-        "curl", "-sS", "-L", "--post301", "--post302", "--post303",
-        "-X", "POST",
-        "https://gql.hashnode.com",
-        "-H", "Content-Type: application/json",
-        "-H", "Accept: application/json",
-        "--data", f"@{payload_path}",
-    ]
-    if HASHNODE_PAT:
-        cmd += ["-H", f"Authorization: {HASHNODE_PAT}"]
-
-    result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
-    os.unlink(payload_path)
-
-    if result.returncode != 0:
-        raise RuntimeError(f"curl failed (exit {result.returncode}): {result.stderr}")
-
-    try:
-        data = json.loads(result.stdout)
-    except json.JSONDecodeError:
-        raise RuntimeError(f"Non-JSON response from Hashnode: {result.stdout[:500]}")
-
-    if "errors" in data:
-        raise RuntimeError(f"Hashnode API error: {data['errors']}")
-
-    return data["data"]["publication"]
+def fetch_rss():
+    req = urllib.request.Request(
+        RSS_URL,
+        headers={"User-Agent": "Mozilla/5.0 (compatible; readme-updater-bot/1.0)"},
+    )
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return resp.read()
 
 
-def build_block(publication):
-    followers = publication["followersCount"]
-    posts = [edge["node"] for edge in publication["posts"]["edges"]]
+def first_image_url(html_fragment):
+    if not html_fragment:
+        return None
+    match = re.search(r'<img[^>]+src="([^"]+)"', html_fragment)
+    return match.group(1) if match else None
 
-    lines = [f"### Latest Blog Posts ({followers} followers on Hashnode)\n"]
+
+def parse_posts(xml_bytes):
+    root = ET.fromstring(xml_bytes)
+    items = root.findall("./channel/item")[:POST_COUNT]
+
+    posts = []
+    for item in items:
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        pub_date = (item.findtext("pubDate") or "").strip()
+        description = html.unescape((item.findtext("description") or "").strip())
+        content_encoded = item.findtext(f"{CONTENT_NS}encoded") or ""
+
+        posts.append({
+            "title": title,
+            "link": link,
+            "pub_date": pub_date,
+            "brief": re.sub(r"<[^>]+>", "", description).strip(),
+            "cover_url": first_image_url(content_encoded) or first_image_url(description),
+        })
+
+    return posts
+
+
+def build_block(posts):
+    lines = ["### Latest Blog Posts\n"]
 
     for post in posts:
-        date = post["publishedAt"][:10]
-        cover = post.get("coverImage")
-        cover_url = cover["url"] if cover else None
-
-        lines.append(f"#### [{post['title']}]({post['url']})")
-        if cover_url:
-            lines.append(f'<img src="{cover_url}" width="400"/>\n')
-        lines.append(post["brief"])
-        lines.append(f"*Published: {date}*\n")
+        lines.append(f"#### [{post['title']}]({post['link']})")
+        if post["cover_url"]:
+            lines.append(f'<img src="{post["cover_url"]}" width="400"/>\n')
+        if post["brief"]:
+            lines.append(post["brief"])
+        if post["pub_date"]:
+            lines.append(f"*Published: {post['pub_date']}*\n")
 
     return "\n".join(lines)
 
@@ -110,8 +86,9 @@ def inject_into_readme(block):
 
 
 def main():
-    publication = fetch_hashnode_data()
-    block = build_block(publication)
+    xml_bytes = fetch_rss()
+    posts = parse_posts(xml_bytes)
+    block = build_block(posts)
     inject_into_readme(block)
 
 
