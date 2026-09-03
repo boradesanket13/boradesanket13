@@ -29,17 +29,6 @@
 - Open source
 
 
-## Get in touch 
-- Portfolio: **[sanketborade.com](https://portfolio-l3xs-ashen.vercel.app/)**
-- LinkedIn: **[linkedin.com/in/boradesanket13](https://linkedin.com/in/boradesanket13)**
-- Writings: **[hashnode.com/@boradesanket13](https://hashnode.com/@boradesanket13)**
-- X / Twitter: **[x.com/boradesanket13](https://twitter.com/boradesanket13)**
-
----
-  > Building in public. Shipping for everyone.
-
-
----
 
 ## Recent Writings 
 <!-- HASHNODE:START -->
@@ -83,3 +72,15 @@ React is a popular frontend UI framework that is used in over 50 million project
 </table>
 <!-- HASHNODE:END -->
 
+
+## Get in touch 
+- Portfolio: **[sanketborade.com](https://portfolio-l3xs-ashen.vercel.app/)**
+- LinkedIn: **[linkedin.com/in/boradesanket13](https://linkedin.com/in/boradesanket13)**
+- Writings: **[hashnode.com/@boradesanket13](https://hashnode.com/@boradesanket13)**
+- X / Twitter: **[x.com/boradesanket13](https://twitter.com/boradesanket13)**
+
+---
+  > Building in public. Shipping for everyone.
+
+
+---
