@@ -4,7 +4,7 @@ import re
 import subprocess
 import tempfile
 
-HASHNODE_HOST = "boradesanket13.hashnode.dev"  
+HASHNODE_HOST = "boradesanket13.hashnode.dev" 
 POST_COUNT = 4
 START_MARKER = "<!-- HASHNODE:START -->"
 END_MARKER = "<!-- HASHNODE:END -->"
@@ -43,7 +43,8 @@ def fetch_hashnode_data():
         payload_path = f.name
 
     cmd = [
-        "curl", "-sS", "-X", "POST",
+        "curl", "-sS", "-L", "--post301", "--post302", "--post303",
+        "-X", "POST",
         "https://gql.hashnode.com",
         "-H", "Content-Type: application/json",
         "-H", "Accept: application/json",
