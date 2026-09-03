@@ -2,9 +2,12 @@ import html
 import re
 import urllib.request
 import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
 
-HASHNODE_HOST = "boradesanket13.hashnode.dev"  
+HASHNODE_HOST = "boradesanket13.hashnode.dev" 
 POST_COUNT = 4
+BRIEF_MAX_CHARS = 140
+THUMB_WIDTH = 110
 START_MARKER = "<!-- HASHNODE:START -->"
 END_MARKER = "<!-- HASHNODE:END -->"
 
@@ -28,6 +31,20 @@ def first_image_url(html_fragment):
     return match.group(1) if match else None
 
 
+def format_date(pub_date):
+    try:
+        return parsedate_to_datetime(pub_date).strftime("%b %d, %Y")
+    except (TypeError, ValueError):
+        return pub_date
+
+
+def truncate(text, max_chars):
+    text = text.strip()
+    if len(text) <= max_chars:
+        return text
+    return text[:max_chars].rsplit(" ", 1)[0].rstrip(",.") + "…"
+
+
 def parse_posts(xml_bytes):
     root = ET.fromstring(xml_bytes)
     items = root.findall("./channel/item")[:POST_COUNT]
@@ -39,12 +56,13 @@ def parse_posts(xml_bytes):
         pub_date = (item.findtext("pubDate") or "").strip()
         description = html.unescape((item.findtext("description") or "").strip())
         content_encoded = item.findtext(f"{CONTENT_NS}encoded") or ""
+        brief = re.sub(r"<[^>]+>", "", description).strip()
 
         posts.append({
             "title": title,
             "link": link,
-            "pub_date": pub_date,
-            "brief": re.sub(r"<[^>]+>", "", description).strip(),
+            "pub_date": format_date(pub_date),
+            "brief": truncate(brief, BRIEF_MAX_CHARS),
             "cover_url": first_image_url(content_encoded) or first_image_url(description),
         })
 
@@ -52,17 +70,31 @@ def parse_posts(xml_bytes):
 
 
 def build_block(posts):
-    lines = ["### Latest Blog Posts\n"]
+    lines = ["### 📝 Latest Blog Posts\n", "<table>"]
 
     for post in posts:
-        lines.append(f"#### [{post['title']}]({post['link']})")
-        if post["cover_url"]:
-            lines.append(f'<img src="{post["cover_url"]}" width="400"/>\n')
-        if post["brief"]:
-            lines.append(post["brief"])
-        if post["pub_date"]:
-            lines.append(f"*Published: {post['pub_date']}*\n")
+        lines.append("  <tr>")
 
+        if post["cover_url"]:
+            lines.append(
+                f'    <td width="{THUMB_WIDTH + 20}">'
+                f'<a href="{post["link"]}"><img src="{post["cover_url"]}" width="{THUMB_WIDTH}" style="border-radius:6px;"/></a>'
+                f"</td>"
+            )
+        else:
+            lines.append(f'    <td width="{THUMB_WIDTH + 20}"></td>')
+
+        cell = (
+            f'      <a href="{post["link"]}"><b>{post["title"]}</b></a><br/>\n'
+            f'      {post["brief"]}<br/>\n'
+            f'      <sub>{post["pub_date"]}</sub>'
+        )
+        lines.append("    <td>")
+        lines.append(cell)
+        lines.append("    </td>")
+        lines.append("  </tr>")
+
+    lines.append("</table>")
     return "\n".join(lines)
 
 
