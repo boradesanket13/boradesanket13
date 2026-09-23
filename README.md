@@ -73,10 +73,10 @@ React is a popular frontend UI framework that is used in over 50 million project
 
 
 ## Get in touch 
-- Email id: boradesanket13@gmail.com
-- Portfolio: **[Portfolio](https://sanketborade.bio.link/)**
-- LinkedIn: **[linkedin.com/in/boradesanket13](https://linkedin.com/in/boradesanket13)**
-- Articles: **[hashnode.com/@boradesanket13](https://hashnode.com/@boradesanket13)**
+- Portfolio: **[https://boradesanket13.github.io/](https://boradesanket13.github.io/)**  
+- Email id: boradesanket13@gmail.com  
+- LinkedIn: **[linkedin.com/in/boradesanket13](https://linkedin.com/in/boradesanket13)**  
+- Articles: **[hashnode.com/@boradesanket13](https://hashnode.com/@boradesanket13)**  
 
 ---
   > Building in public. Shipping for everyone.
