@@ -1,7 +1,4 @@
 <img width="5938" height="713" alt="GitHubBanner (1)" src="https://github.com/user-attachments/assets/9d1ecd11-57ab-496b-9186-d36823204489" />
-
-
-# Open source is how I give back what I've learned.
  
 ## Tech Stack
 - **Languages:** Java • Python • TypeScript • SQL
