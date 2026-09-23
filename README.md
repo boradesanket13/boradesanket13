@@ -1,9 +1,8 @@
+<img width="5938" height="713" alt="GitHubBanner (1)" src="https://github.com/user-attachments/assets/9d1ecd11-57ab-496b-9186-d36823204489" />
+
+
 # Open source is how I give back what I've learned.
  
-## About 
-- Software Engineer focused on building scalable backend systems, distributed services, and reliable cloud-native applications.
-- I build innovative and useful products for the web with great user experience.
-
 ## Tech Stack
 - **Languages:** Java • Python • TypeScript • SQL
 - **Backend:** Java • Spring Boot • REST APIs • Microservices • gRPC • Apache Kafka
@@ -77,8 +76,7 @@ React is a popular frontend UI framework that is used in over 50 million project
 - Email id: boradesanket13@gmail.com
 - Portfolio: **[Portfolio](https://sanketborade.bio.link/)**
 - LinkedIn: **[linkedin.com/in/boradesanket13](https://linkedin.com/in/boradesanket13)**
-- Writings: **[hashnode.com/@boradesanket13](https://hashnode.com/@boradesanket13)**
-- X / Twitter: **[x.com/boradesanket13](https://twitter.com/boradesanket13)**
+- Articles: **[hashnode.com/@boradesanket13](https://hashnode.com/@boradesanket13)**
 
 ---
   > Building in public. Shipping for everyone.
