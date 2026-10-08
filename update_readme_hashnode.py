@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 
 HASHNODE_HOST = "boradesanket13.hashnode.dev" 
-POST_COUNT = 4
+POST_COUNT = 3
 BRIEF_MAX_CHARS = 140
 THUMB_WIDTH = 110
 START_MARKER = "<!-- HASHNODE:START -->"
