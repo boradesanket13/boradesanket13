@@ -59,14 +59,6 @@ React is a popular frontend UI framework that is used in over 50 million project
       <sub>Aug 10, 2024</sub>
     </td>
   </tr>
-  <tr>
-    <td width="130"><a href="https://boradesanket13.hashnode.dev/how-to-use-action-verbs-to-make-your-resume-more-impactful-7e535f6f60ad"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1723304001583/b9c2181e-beec-40c2-bd23-ceda675637b5.jpeg" width="110" style="border-radius:6px;"/></a></td>
-    <td>
-      <a href="https://boradesanket13.hashnode.dev/how-to-use-action-verbs-to-make-your-resume-more-impactful-7e535f6f60ad"><b>How to use action verbs to make your resume more impactful</b></a><br/>
-      We can all agree that your CV is one of the most crucial tools in your career toolkit, whether you’re applying for a full-time work soon, a…<br/>
-      <sub>Aug 10, 2024</sub>
-    </td>
-  </tr>
 </table>
 <!-- HASHNODE:END -->
 
