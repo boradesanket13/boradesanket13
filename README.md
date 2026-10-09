@@ -16,7 +16,7 @@
 - **[GeeksForGeeks](https://www.geeksforgeeks.org/)** - Technical Writer
 
 ## Projects
-- **[DropSend](https://github.com/boradesanket13/MERN-shikshasetu)** — Privacy-first browser-to-browser file transfer application using WebRTC, AES-GCM encryption & Cloudflare 
+- **[DropSend](https://github.com/boradesanket13/dropsend)** — Privacy-first browser-to-browser file transfer application using WebRTC, AES-GCM encryption & Cloudflare 
 - **[ShikshaSetu](https://github.com/boradesanket13/MERN-shikshasetu)** — Learning Management System built with MERN, Redis, Socket.io, Stripe and Cloudinary
 - **[FundSeed](https://github.com/boradesanket13/Blockchain-FundSeed)** — Decentralized crowdfunding platform built with Solidity, Next.js, and Hardhat
 
